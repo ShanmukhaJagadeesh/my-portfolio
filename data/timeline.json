@@ -1,0 +1,37 @@
+[
+    {
+        "company": "Caesium Lab",
+        "period": "Oct 2023 – Present",
+        "title": "Lead Unity Developer",
+        "desc": "Leading a 15+ member team to deliver 'Alpha Returns', a Web3 mobile battle-royale game. Achieved 10x performance boost through system optimization, implemented AI, weapons, inventory, and NFT-based rewards.",
+        "projects": [
+            "Alpha Returns – Web3 multiplayer PvP shooter (tokenized assets, crypto rewards, blockchain integration)"
+        ]
+    },
+    {
+        "company": "Ivy Comptech",
+        "period": "Apr 2022 – Aug 2023",
+        "title": "Senior Software Engineer",
+        "desc": "Developed and optimized immersive VR titles for Oculus Quest. Focused on frame-rate stability, low-latency input, and advanced VR mechanics for the metaverse.",
+        "projects": [
+            "Poker VR – Multiplayer VR poker with realistic hand tracking",
+            "Roulette Wheel VR – Multiplayer roulette with gesture controls",
+            "Fortune Funnel VR – Physics-based VR puzzle with haptics"
+        ]
+    },
+    {
+        "company": "Supercode Games",
+        "period": "Jan 2019 – Apr 2022",
+        "title": "Senior Unity Developer",
+        "desc": "Led development of high-performing mobile games for the Play Store. Engineered core systems, optimized performance, and integrated visuals, audio, and QA across multiple genres.",
+        "projects": [
+            "War Ground – 3D PvP shooter",
+            "Car Drift Racing – Drift physics & vehicle control",
+            "Offroad Driving – Terrain-based racing",
+            "Robot Fighting – PvP AI combat",
+            "Hop Ball – Arcade rhythm game",
+            "Arrow Twist – Physics-based arrow puzzle",
+            "Word Coach – Procedural word puzzle"
+        ]
+    }
+]

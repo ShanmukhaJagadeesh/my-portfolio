@@ -1,0 +1,31 @@
+.stats-bar {
+    margin: 0 auto 48px auto;
+    max-width: 900px;
+    background: #191728;
+    border-radius: 18px;
+    box-shadow: 0 6px 32px rgba(21,19,38,0.13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 44px;
+    gap: 20px;
+}
+.stat {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #222034;
+}
+.stat:last-child { border: none; }
+.stat-num {
+    color: #a58cff;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    letter-spacing: 1.5px;
+}
+.stat-label {
+    color: #d5cfff;
+    font-size: 1rem;
+    opacity: 0.86;
+    letter-spacing: 0.4px;
+}

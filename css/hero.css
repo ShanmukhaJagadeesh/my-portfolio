@@ -1,0 +1,103 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px 38px 40px;
+    max-width: 1100px;
+    margin: 50px auto 24px auto;
+    background: #181622;
+    border-radius: 26px;
+    box-shadow: 0 12px 64px rgba(40, 30, 70, 0.13);
+    position: relative;
+    flex-wrap: wrap;
+}
+.hero-left {
+    flex: 1.1;
+    min-width: 270px;
+}
+.hero-photo {
+    flex: 0.7;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.hero-photo img {
+    width: 245px;
+    height: 245px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 36px rgba(165, 140, 255, 0.13);
+    border: 5px solid #25223b;
+    background: #191728;
+    margin-left: 20px;
+    filter: grayscale(8%);
+    transition: filter 0.3s, transform 0.3s;
+}
+.hero-photo img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.045) rotate(-2deg);
+}
+.hero h1 {
+    font-size: 2.7rem;
+    font-weight: 800;
+    margin: 0 0 0.7rem 0;
+    letter-spacing: 1px;
+}
+.accent {
+    color: #a58cff;
+}
+.hero h2 {
+    font-size: 1.25rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.tagline {
+    font-size: 1rem;
+    color: #6de7ff;
+    background: rgba(30, 28, 56, 0.44);
+    display: inline-block;
+    border-radius: 7px;
+    padding: 8px 12px;
+    margin-bottom: 2.3rem;
+    margin-top: 0.5rem;
+    font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
+    font-weight: 600;
+    box-shadow: 0 2px 12px rgba(80,100,160,0.11);
+}
+.hero-btns {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 1.2rem;
+}
+.btn {
+    padding: 12px 28px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.18s, color 0.18s;
+    display: inline-block;
+    box-shadow: 0 2px 14px rgba(135,100,255,0.12);
+}
+.btn-accent {
+    background: #a58cff;
+    color: #181622;
+}
+.btn-accent:hover {
+    background: #c8a6ff;
+    color: #181622;
+}
+.btn-outline {
+    border: 2px solid #a58cff;
+    color: #a58cff;
+    background: transparent;
+}
+.btn-outline:hover {
+    background: #181622;
+    color: #fff;
+    border-color: #fff;
+}

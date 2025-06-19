@@ -1,0 +1,123 @@
+[
+    {
+        "title": "Alpha Returns",
+        "description": "Web3 multiplayer PvP shooter with tokenized assets and crypto rewards.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.alphareturns",
+        "screenshots":
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    },
+    {
+        "title": "Poker VR",
+        "description": "VR poker game with realistic physics and intuitive hand-tracking.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.pokervr",
+        "screenshots": 
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    },
+    {
+        "title": "Roulette Wheel VR",
+        "description": "Multiplayer roulette with dynamic gestures and immersive design.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.roulettevr",
+        "screenshots": 
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    },
+    {
+        "title": "Fortune Funnel VR",
+        "description": "Physics-based puzzle with haptic feedback and engaging flow.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.fortunevr",
+        "screenshots": 
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    },
+    {
+        "title": "War Ground",
+        "description": "Offline PvP shooter featuring FPS & TPS mechanics and optimized performance.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.warground",
+        "screenshots": 
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    },
+    {
+        "title": "Car Drift Racing",
+        "description": "Realistic mobile drift racing with fine-tuned physics and control.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.cardrift",
+        "screenshots": 
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    },
+    {
+        "title": "Offroad Driving",
+        "description": "Terrain-based racing game with advanced suspension physics.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.offroad",
+        "screenshots": 
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    },
+    {
+        "title": "Robot Fighting",
+        "description": "PvP robot game with AI combat and dynamic animations.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.robotfight",
+        "screenshots": 
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    },
+    {
+        "title": "Hop Ball",
+        "description": "Arcade rhythm game with procedural levels and smooth touch response.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.hopball",
+        "screenshots": 
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    },
+    {
+        "title": "Arrow Twist",
+        "description": "Physics puzzle game with arrow shooting and curved targets.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.arrowtwist",
+        "screenshots": 
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    },
+    {
+        "title": "Word Coach",
+        "description": "Word puzzle game with procedural generation and UI effects.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.wordcoach",
+        "screenshots": 
+        [
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
+            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+        ]
+    }
+  ]

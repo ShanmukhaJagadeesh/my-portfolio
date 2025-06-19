@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+    .hero { flex-direction: column; padding: 34px 8vw; }
+    .hero-photo { justify-content: center; margin-top: 16px;}
+    .hero-photo img { margin-left: 0;}
+    .stats-bar { flex-direction: column; gap: 10px; padding: 20px 10vw;}
+    .stat { border: none; border-bottom: 1px solid #222034; }
+    .stat:last-child { border-bottom: none; }
+}
+@media (max-width: 600px) {
+    .hero h1 { font-size: 1.4rem; }
+    .hero h2 { font-size: 1rem; }
+    .hero-photo img { width: 130px; height: 130px; }
+    .timeline-content { padding: 18px 5px; }
+    .stats-bar { padding: 12px 4vw;}
+    .project-grid { grid-template-columns: 1fr; }
+    .modal-content { padding: 15px; width: 98%; }
+}

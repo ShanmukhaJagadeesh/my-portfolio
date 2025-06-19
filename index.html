@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shanmuka Jagadeesh | Lead Unity Developer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/stats.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <header>
@@ -13,74 +18,47 @@
             <ul class="nav-links">
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-left">
-            <h1>Hey, I’m <span class="accent">Shanmuka Jagadeesh</span></h1>
-            <h2>Lead Unity Developer from Hyderabad</h2>
-            <pre class="tagline">I create scalable game systems & immersive player experiences</pre>
-            <div class="hero-btns">
-                <a class="btn btn-accent" href="#contact">Hire Me</a>
-                <a class="btn btn-outline" href="ShanmukaJagadeesh_Resume.pdf" download>Download Resume</a>
-            </div>
-        </div>
-        <div class="hero-photo">
-            <img src="Images/Profile/ProfilePicture.png" alt="Shanmuka Jagadeesh"/>
-        </div>
-    </section>
-
-    <!-- Stats Bar -->
-    <section class="stats-bar">
-        <div class="stat">
-            <div class="stat-num">11+</div>
-            <div class="stat-label">Projects Delivered</div>
-        </div>
-        <div class="stat">
-            <div class="stat-num">7+</div>
-            <div class="stat-label">Years Experience</div>
-        </div>
-        <div class="stat">
-            <div class="stat-num">10x+</div>
-            <div class="stat-label">Performance Gains</div>
-        </div>
-        <div class="stat">
-            <div class="stat-num">15+</div>
-            <div class="stat-label">Team Members Led</div>
+    <section class="hero" id="home"></section>
+    <section class="stats-bar"></section>
+    <section class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <span>Unity3D</span>
+            <span>C#</span>
+            <span>Photon (PUN)</span>
+            <span>AR/VR (Oculus, ARKit, ARCore)</span>
+            <span>Web3/Blockchain</span>
+            <span>Game Optimization</span>
+            <span>AI & Systems Design</span>
+            <span>Team Leadership</span>
+            <span>Agile/Scrum</span>
+            <span>Blender</span>
+            <span>Photoshop</span>
         </div>
     </section>
-
-    <!-- Timeline (Experience) -->
     <section class="timeline-section" id="experience">
         <h2>My Timeline</h2>
-        <div class="timeline-tabs" id="timelineTabs">
-            <!-- Populated by JS -->
-        </div>
-        <div class="timeline-content" id="timelineContent">
-            <!-- Populated by JS -->
-        </div>
+        <div class="timeline-tabs" id="timelineTabs"></div>
+        <div class="timeline-content" id="timelineContent"></div>
     </section>
-
     <section class="section" id="projects">
         <h2>Projects</h2>
         <div class="project-grid" id="projectList"></div>
     </section>
-    <div id="modal" class="modal">
+    <div id="modal" class="modal" aria-modal="true">
         <div class="modal-content">
-            <span class="close">&times;</span>
+            <span class="close" tabindex="0" role="button" aria-label="Close">&times;</span>
             <h2 id="modalTitle" style="color: #a58cff;"></h2>
             <div class="modal-screenshots"></div>
             <p id="modalDesc"></p>
             <a id="playLink" href="#" target="_blank" class="play-btn">Get it on Google Play</a>
         </div>
     </div>
-
-
-    <!-- Contact (Optional Minimal) -->
     <section class="contact-section" id="contact">
         <h2>Contact</h2>
         <div class="contact-info">
@@ -91,7 +69,6 @@
             </p>
         </div>
     </section>
-
-    <script src="main.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>

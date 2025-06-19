@@ -9,34 +9,59 @@
 <body>
     <header>
         <nav class="navbar">
+            <div class="brand">ShanmukaJagadeesh.Me</div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero" id="home">
-        <div class="hero-text">
-            <h1>Shanmuka Jagadeesh</h1>
-            <h2>Lead Unity Developer</h2>
-            <p>
-                7+ years of experience across Unity, multiplayer systems, AR/VR, and Web3 platforms.
-                I build high-performance game systems, lead cross-functional teams, and deliver immersive player experiences.
-            </p>
-            <div class="contact-info">
-                <p>📧 <a href="mailto:shanmukhajagadeesh@gmail.com">shanmukhajagadeesh@gmail.com</a></p>
-                <p>📞 <a href="tel:+918008900943">+91 8008900943</a></p>
-                <p style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-                    <a href="https://www.linkedin.com/in/shanmukha-jagadeesh-punnam/" target="_blank"
-                       style="background: #ffffff; border-radius: 50%; width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; text-decoration: none; color: #0a66c2;">
-                        in
-                    </a>
-                    <a href="https://www.linkedin.com/in/shanmukha-jagadeesh-punnam/" target="_blank">
-                        View LinkedIn Profile
-                    </a>
-                </p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-left">
+            <h1>Hey, I’m <span class="accent">Shanmuka Jagadeesh</span></h1>
+            <h2>Lead Unity Developer from Hyderabad</h2>
+            <pre class="tagline">I create scalable game systems & immersive player experiences</pre>
+            <div class="hero-btns">
+                <a class="btn btn-accent" href="#contact">Hire Me</a>
+                <a class="btn btn-outline" href="ShanmukaJagadeesh_Resume.pdf" download>Download Resume</a>
             </div>
+        </div>
+        <div class="hero-photo">
+            <img src="Images/Profile/ProfilePicture.png" alt="Shanmuka Jagadeesh"/>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+        <div class="stat">
+            <div class="stat-num">11+</div>
+            <div class="stat-label">Projects Delivered</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num">7+</div>
+            <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num">10x+</div>
+            <div class="stat-label">Performance Gains</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num">15+</div>
+            <div class="stat-label">Team Members Led</div>
+        </div>
+    </section>
+
+    <!-- Timeline (Experience) -->
+    <section class="timeline-section" id="experience">
+        <h2>My Timeline</h2>
+        <div class="timeline-tabs" id="timelineTabs">
+            <!-- Populated by JS -->
+        </div>
+        <div class="timeline-content" id="timelineContent">
+            <!-- Populated by JS -->
         </div>
     </section>
 
@@ -44,20 +69,28 @@
         <h2>Projects</h2>
         <div class="project-grid" id="projectList"></div>
     </section>
-
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2 id="modalTitle" style="color: #a58cff;"></h2>
-            <div class="modal-screenshots">
-                <img src="https://via.placeholder.com/160x100.png?text=Screenshot+1">
-                <img src="https://via.placeholder.com/160x100.png?text=Screenshot+2">
-                <img src="https://via.placeholder.com/160x100.png?text=Screenshot+3">
-            </div>
+            <div class="modal-screenshots"></div>
             <p id="modalDesc"></p>
             <a id="playLink" href="#" target="_blank" class="play-btn">Get it on Google Play</a>
         </div>
     </div>
+
+
+    <!-- Contact (Optional Minimal) -->
+    <section class="contact-section" id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>📧 <a href="mailto:shanmukhajagadeesh@gmail.com">shanmukhajagadeesh@gmail.com</a></p>
+            <p>📞 <a href="tel:+918008900943">+91 8008900943</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/shanmukha-jagadeesh-punnam/" target="_blank">LinkedIn Profile</a>
+            </p>
+        </div>
+    </section>
 
     <script src="main.js"></script>
 </body>

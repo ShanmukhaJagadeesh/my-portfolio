@@ -82,3 +82,18 @@ const projects = [
  showModal(index);
     });
  });
+
+ // Add this at the end of main.js
+
+// Close modal when clicking on the close (×) button
+document.querySelector('.close').addEventListener('click', function() {
+    document.getElementById('modal').style.display = 'none';
+});
+
+// Optional: Close modal if clicking outside modal content
+window.onclick = function(event) {
+    const modal = document.getElementById('modal');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+};

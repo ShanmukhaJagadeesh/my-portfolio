@@ -27,6 +27,9 @@ This is a simple, modern portfolio website for showcasing Unity game development
 - **Projects:** Edit `projects` array in `main.js` to update project details and links.
 - **Profile Photo:** Replace `shanmukhpassportpic.jpg` with your photo or update `.hero` background in CSS.
 
+
+cd C:\Users\pc\Documents\GitHub\my-portfolio
+npx serve .
 ---
 
 **Made by Shanmuka Jagadeesh**

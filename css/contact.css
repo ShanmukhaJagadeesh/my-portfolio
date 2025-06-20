@@ -1,40 +1,85 @@
 .contact-section {
-    background: #181622;
+    background: rgba(24, 22, 34, 0.86);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     max-width: 420px;
-    margin: 48px auto 0 auto;
-    border-radius: 14px;
-    box-shadow: 0 4px 22px rgba(60,60,80,0.10);
-    padding: 38px 28px 22px 28px;
-    text-align: left;
+    margin: 64px auto 40px auto;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px 0 rgba(120,100,255,0.15);
+    padding: 38px 32px 32px 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid #302c4b;
+    border-top: 2px solid #231e3a;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: contactFadeIn 0.7s 0.15s forwards;
+    transition: box-shadow 0.2s;
+}
+@keyframes contactFadeIn {
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+.contact-section:hover {
+    box-shadow: 0 12px 36px 0 rgba(165,140,255,0.19);
 }
 .contact-section h2 {
     color: #a58cff;
     margin-bottom: 22px;
-    text-align: left;
+    font-size: 2rem;
+    text-align: center;
 }
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 22px;
+    width: 100%;
+    align-items: center;
 }
 .contact-row {
     display: flex;
     align-items: center;
-    gap: 14px;
-    font-size: 1.11rem;
+    gap: 15px;
+    font-size: 1.17rem;
+    width: 100%;
+    justify-content: center;
+    transition: background 0.2s;
+    border-radius: 7px;
+    padding: 2px 0;
 }
 .contact-icon {
-    font-size: 1.33em;
-    width: 30px;
+    font-size: 1.6em;
+    width: 36px;
     text-align: center;
+    color: #a58cff;
+    transition: color 0.2s;
 }
 .contact-info a {
     color: #a58cff;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.2s;
+    transition: color 0.2s, filter 0.2s;
+    word-break: break-all;
 }
 .contact-info a:hover {
-    color: #fff;
+    color: #6de7ff;
     text-decoration: underline;
+    filter: brightness(1.2);
+}
+.contact-row:hover .contact-icon {
+    color: #6de7ff;
+}
+
+@media (max-width: 500px) {
+    .contact-section {
+        padding: 20px 6vw;
+        max-width: 99vw;
+    }
+    .contact-info a {
+        font-size: 0.96rem;
+    }
 }

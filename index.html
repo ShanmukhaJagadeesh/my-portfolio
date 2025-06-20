@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="css/stats.css">
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- Optionally: Add Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&family=Segoe+UI:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation -->
     <header>
         <nav class="navbar">
             <div class="brand">ShanmukaJagadeesh.Me</div>
@@ -23,9 +27,15 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Hero Section (Rendered by JS) -->
     <section class="hero" id="home"></section>
+
+    <!-- Stats Bar (Rendered by JS) -->
     <section class="stats-bar"></section>
-    <section class="section" id="skills">
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
         <h2>Skills</h2>
         <div class="skills-list">
             <span>Unity3D</span>
@@ -41,15 +51,20 @@
             <span>Photoshop</span>
         </div>
     </section>
+
+    <!-- Timeline (Experience) -->
     <section class="timeline-section" id="experience">
         <h2>My Timeline</h2>
         <div class="timeline-tabs" id="timelineTabs"></div>
         <div class="timeline-content" id="timelineContent"></div>
     </section>
+
+    <!-- Projects Section -->
     <section class="section" id="projects">
         <h2>Projects</h2>
         <div class="project-grid" id="projectList"></div>
     </section>
+    <!-- Modal for Project Details -->
     <div id="modal" class="modal" aria-modal="true">
         <div class="modal-content">
             <span class="close" tabindex="0" role="button" aria-label="Close">&times;</span>
@@ -59,6 +74,8 @@
             <a id="playLink" href="#" target="_blank" class="play-btn">Get it on Google Play</a>
         </div>
     </div>
+
+    <!-- Contact Section -->
     <section class="contact-section" id="contact">
         <h2>Contact</h2>
         <div class="contact-info">
@@ -77,6 +94,7 @@
         </div>
     </section>
 
+    <!-- JS modules for rendering -->
     <script type="module" src="js/main.js"></script>
 </body>
 </html>

@@ -4,32 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shanmuka Jagadeesh | Lead Unity Developer</title>
+    <!-- Fonts (optional but recommended for your design) -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&family=Segoe+UI:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- NEW: Navbar CSS (should override previous navbar styles) -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- Section CSS -->
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/stats.css">
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/contact.css">
+    <!-- Responsive tweaks at the end -->
     <link rel="stylesheet" href="css/responsive.css">
-    <!-- Optionally: Add Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&family=Segoe+UI:wght@400;700;900&display=swap" rel="stylesheet">
-</head>
-<body>
+    </head>
+    <body>
     <!-- Navigation -->
     <header>
         <nav class="navbar">
-            <div class="brand">ShanmukaJagadeesh.Me</div>
-            <ul class="nav-links">
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <div class="navbar-title">Shanmukh.dev</div>
+            <div class="navbar-links">
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
 
-    <!-- Hero Section (Rendered by JS) -->
-    <section class="hero" id="home"></section>
+    <section class="hero" id="home">
+    <div class="hero-left">
+        <h1>Hey, I'm <span class="accent">Shanmuka Jagadeesh</span></h1>
+        <h2>Lead Unity Developer | Technical Lead</h2>
+        <pre class="tagline"><span id="scroll-text"></span></pre>
+        <div class="hero-btns">
+        <a class="btn btn-accent" href="#contact">Hire Me</a>
+        <a class="btn btn-outline" href="ShanmukaJagadeesh_Resume.pdf" download>Download Resume</a>
+        </div>
+    </div>
+    <div class="hero-photo">
+        <img src="Images/Profile/ProfilePicture.png" alt="Shanmuka Jagadeesh"/>
+    </div>
+    </section>
+
 
     <!-- Stats Bar (Rendered by JS) -->
     <section class="stats-bar"></section>
@@ -94,7 +111,28 @@
         </div>
     </section>
 
-    <!-- JS modules for rendering -->
+    <!-- JS modules for rendering and nav toggle -->
     <script type="module" src="js/main.js"></script>
+    <script>
+        // Hamburger nav responsive toggle
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.getElementById('navToggle');
+            const navLinks = document.getElementById('navLinks');
+
+            navToggle.addEventListener('click', function () {
+                navToggle.classList.toggle('active');
+                navLinks.classList.toggle('show');
+                navToggle.setAttribute('aria-expanded', navToggle.classList.contains('active'));
+            });
+
+            navLinks.addEventListener('click', function (e) {
+                if (e.target.tagName === 'A') {
+                    navToggle.classList.remove('active');
+                    navLinks.classList.remove('show');
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

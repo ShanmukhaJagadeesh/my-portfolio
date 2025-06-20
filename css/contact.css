@@ -74,12 +74,16 @@
     color: #6de7ff;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 370px) {
     .contact-section {
-        padding: 20px 6vw;
-        max-width: 99vw;
+        padding: 9px 2vw;
     }
     .contact-info a {
-        font-size: 0.96rem;
+        font-size: 0.85rem;
+    }
+    .contact-icon {
+        font-size: 1.25em;
+        width: 24px;
     }
 }
+

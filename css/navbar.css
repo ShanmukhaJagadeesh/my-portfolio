@@ -1,0 +1,60 @@
+/* Minimal responsive navbar for Shanmuka Jagadeesh */
+.navbar {
+  width: 100%;
+  background: #1b1a23; /* your dark bg */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navbar-title {
+  color: #a58cff;  /* your accent */
+  font-size: 1.7rem;
+  font-weight: 900;
+  letter-spacing: 1.3px;
+  margin: 0;
+  font-family: inherit;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 28px;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.14rem;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  padding: 4px 2px;
+  transition: color 0.18s;
+}
+
+.navbar-links a:hover,
+.navbar-links a:focus {
+  color: #a58cff;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;           /* Center all children horizontally */
+    padding: 14px 5vw 10px 5vw;   /* Optional: symmetric padding */
+  }
+  .navbar-title {
+    margin-bottom: 8px;
+    font-size: 1.24rem;
+    text-align: center;           /* Center text in the title */
+    width: 100%;                  /* Ensure title takes full width for perfect centering */
+  }
+  .navbar-links {
+    gap: 16px;
+    justify-content: center;      /* Center links horizontally */
+    width: 100%;                  /* Ensure links take full width for centering */
+    display: flex;                /* Redundant but ensures flex context */
+  }
+}
+

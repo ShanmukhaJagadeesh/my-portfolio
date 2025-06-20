@@ -1,16 +1,39 @@
-export function renderHero() {
-    document.querySelector('.hero').innerHTML = `
-        <div class="hero-left">
-            <h1>Hey, I’m <span class="accent">Shanmuka Jagadeesh</span></h1>
-            <h2>Lead Unity Developer from Hyderabad</h2>
-            <pre class="tagline">I create scalable game systems & immersive player experiences</pre>
-            <div class="hero-btns">
-                <a class="btn btn-accent" href="#contact">Hire Me</a>
-                <a class="btn btn-outline" href="ShanmukaJagadeesh_Resume.pdf" download>Download Resume</a>
-            </div>
-        </div>
-        <div class="hero-photo">
-            <img src="Images/Profile/ProfilePicture.png" alt="Shanmuka Jagadeesh"/>
-        </div>
-    `;
+export function animateTagline() {
+  const scrollText = document.getElementById('scroll-text');
+  if (!scrollText) return;
+  const messages = [
+    'I build scalable Unity architecture.',
+    'I lead production across platforms.',
+    'I manage cross-functional game teams.',
+    'I optimize gameplay systems for performance and retention.',
+    'I integrate blockchain systems into traditional game flows.',
+    'I design immersive player journeys.'
+  ];
+
+  let index = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+
+  function typeEffect() {
+    const current = messages[index];
+    const partial = current.substring(0, charIndex);
+    scrollText.innerHTML = partial;
+
+    if (!isDeleting && charIndex < current.length) {
+      charIndex++;
+      setTimeout(typeEffect, 60);
+    } else if (!isDeleting && charIndex === current.length) {
+      isDeleting = true;
+      setTimeout(typeEffect, 1600);
+    } else if (isDeleting && charIndex > 0) {
+      charIndex--;
+      setTimeout(typeEffect, 30);
+    } else {
+      isDeleting = false;
+      index = (index + 1) % messages.length;
+      setTimeout(typeEffect, 500);
+    }
+  }
+
+  typeEffect();
 }

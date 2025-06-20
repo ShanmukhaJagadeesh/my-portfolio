@@ -69,3 +69,22 @@
     margin-bottom: 0.3rem;
     color: #b9b3e6;
 }
+
+/* ---------------------------Responsive-------------------------------- */
+
+@media (max-width: 500px) {
+    .timeline-content {
+        padding: 14px 2vw;
+        font-size: 0.99rem;
+    }
+    .timeline-section {
+        padding: 0 3vw;
+    }
+    .timeline-tabs {
+        gap: 7px;
+    }
+    .timeline-tab {
+        padding: 8px 10px;
+        font-size: 0.93rem;
+    }
+}

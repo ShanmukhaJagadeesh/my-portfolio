@@ -8,7 +8,6 @@
     .stat:last-child { border-bottom: none; }
     header { padding: 12px 6vw; }
     .nav-links { gap: 16px; }
-    .skills-list span { padding: 7px 12px; font-size: 0.98rem; }
 }
 @media (max-width: 800px) {
     /* already handled in hero.css */
@@ -26,8 +25,6 @@
     .nav-links { flex-direction: column; gap: 8px; width: 100%; }
     .nav-links li { width: 100%; }
     .nav-links li a { display: block; width: 100%; padding: 8px 0; font-size: 0.98rem; }
-    .skills-list { gap: 7px; }
-    .skills-list span { font-size: 0.93rem; padding: 6px 10px; }
     .stat-num { font-size: 1.2rem; }
     .stat-label { font-size: 0.88rem; }
 }

@@ -40,21 +40,6 @@ header {
 .nav-links li a:hover {
     color: #fff;
 }
-.skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-    justify-content: center;
-    margin-bottom: 24px;
-}
-.skills-list span {
-    background: #221e32;
-    color: #a58cff;
-    padding: 9px 20px;
-    border-radius: 14px;
-    font-size: 1.05rem;
-    font-weight: 600;
-}
 
 /* ---------------------------Responsive-------------------------------- */
 
@@ -64,10 +49,6 @@ header {
     }
     .nav-links {
         gap: 16px;
-    }
-    .skills-list span {
-        padding: 7px 12px;
-        font-size: 0.98rem;
     }
 }
 @media (max-width: 600px) {
@@ -96,13 +77,6 @@ header {
         width: 100%;
         padding: 8px 0;
         font-size: 0.98rem;
-    }
-    .skills-list {
-        gap: 7px;
-    }
-    .skills-list span {
-        font-size: 0.93rem;
-        padding: 6px 10px;
     }
 }
 

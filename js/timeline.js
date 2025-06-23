@@ -2,11 +2,11 @@
 export async function initTimeline() {
     // Map company to logo file
     const logoMap = {
-      "Caesium Lab": "images/logo/caesiumlab_logo.jpg",
-      "Ivy Comptech": "images/logo/ivycomptech_logo.jpg",
-      "Supercode Games": "images/logo/supercodegames_logo.jpg",
-      "ARDIS Enviro Solutions": "images/logo/ardisenvirosolutions.jpg",
-      "Sasi Institute of Technology and Engineering (SITE)": "images/logo/sasi_logo.jpg",
+      "Caesium Lab": "Images/logo/caesiumlab_logo.jpg",
+      "Ivy Comptech": "Images/logo/ivycomptech_logo.jpg",
+      "Supercode Games": "Images/logo/supercodegames_logo.jpg",
+      "ARDIS Enviro Solutions": "Images/logo/ardisenvirosolutions.jpg",
+      "Sasi Institute of Technology and Engineering (SITE)": "Images/logo/sasi_logo.jpg",
     };
 
     const res = await fetch('data/timeline.json');

@@ -102,3 +102,41 @@ a {
     display: inline-block;
     margin: 20px 0;
 }
+
+.project-thumb {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+.project-thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+.project-tags {
+    margin: 12px 0;
+}
+.project-tags .tag {
+    background: #2b273d;
+    color: #a58cff;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    margin: 2px;
+    border-radius: 16px;
+    display: inline-block;
+}
+.play-btn.mini {
+    background-color: #34a853;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    margin-top: 8px;
+    display: inline-block;
+}
+.project-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 24px rgba(160,140,255,0.2);
+    transition: 0.2s ease;
+}

@@ -7,9 +7,16 @@ export async function initProjects() {
         const div = document.createElement("div");
         div.className = "project-item";
         div.innerHTML = `
+            <div class="project-thumb">
+                <img src="${proj.screenshots?.[0] || 'fallback.jpg'}" alt="${proj.title}">
+            </div>
             <h3 class="project-title">${proj.title}</h3>
             <p class="project-description">${proj.description}</p>
-            <button class="view-btn" data-index="${i}">View Details</button>
+            <div class="project-tags">
+                ${(proj.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('')}
+            </div>
+            <button class="view-btn" data-index="${i}">View</button>
+            <a href="${proj.playLink}" class="play-btn mini" target="_blank">Play Store</a>
         `;
         container.appendChild(div);
     });
@@ -20,7 +27,6 @@ export async function initProjects() {
         document.getElementById("modalDesc").innerText = proj.description;
         document.getElementById("playLink").href = proj.playLink;
 
-        // Update screenshots dynamically
         const screenshotsDiv = document.querySelector(".modal-screenshots");
         screenshotsDiv.innerHTML = '';
         (proj.screenshots || []).forEach(src => {

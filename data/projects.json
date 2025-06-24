@@ -5,9 +5,9 @@
         "playLink": "https://play.google.com/store/apps/details?id=com.example.alphareturns",
         "screenshots":
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/AlphaReturns/ProjectThumbnail.jpg",
+            "Images/Projects/AlphaReturns/screenshot2.png",
+            "Images/Projects/AlphaReturns/screenshot3.png"
         ]
     },
     {
@@ -16,9 +16,9 @@
         "playLink": "https://play.google.com/store/apps/details?id=com.example.pokervr",
         "screenshots": 
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/PokerVR/ProjectThumbnail.jpg",
+            "Images/Projects/PokerVR/screenshot2.png",
+            "Images/Projects/PokerVR/screenshot3.png"
         ]
     },
     {
@@ -27,9 +27,9 @@
         "playLink": "https://play.google.com/store/apps/details?id=com.example.roulettevr",
         "screenshots": 
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/RouletteWheelVR/ProjectThumbnail.jpg",
+            "Images/Projects/RouletteWheelVR/screenshot2.png",
+            "Images/Projects/RouletteWheelVR/screenshot3.png"
         ]
     },
     {
@@ -38,9 +38,9 @@
         "playLink": "https://play.google.com/store/apps/details?id=com.example.fortunevr",
         "screenshots": 
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/FortuneFunnelVR/ProjectThumbnail.jpg",
+            "Images/Projects/FortuneFunnelVR/screenshot2.png",
+            "Images/Projects/FortuneFunnelVR/screenshot3.png"
         ]
     },
     {
@@ -49,9 +49,20 @@
         "playLink": "https://play.google.com/store/apps/details?id=com.example.warground",
         "screenshots": 
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/WarGround/ProjectThumbnail.jpg",
+            "Images/Projects/WarGround/screenshot2.png",
+            "Images/Projects/WarGround/screenshot3.png"
+        ]
+    },
+        {
+        "title": "Nut Color Sort",
+        "description": "Terrain-based racing game with advanced suspension physics.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.offroad",
+        "screenshots": 
+        [
+            "Images/Projects/NutColorSort/ProjectThumbnail.jpg",
+            "Images/Projects/NutColorSort/screenshot2.png",
+            "Images/Projects/NutColorSort/screenshot3.png"
         ]
     },
     {
@@ -60,9 +71,9 @@
         "playLink": "https://play.google.com/store/apps/details?id=com.example.cardrift",
         "screenshots": 
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/CarDriftRacing/ProjectThumbnail.jpg",
+            "Images/Projects/CarDriftRacing/screenshot2.png",
+            "Images/Projects/CarDriftRacing/screenshot3.png"
         ]
     },
     {
@@ -71,20 +82,31 @@
         "playLink": "https://play.google.com/store/apps/details?id=com.example.offroad",
         "screenshots": 
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/OffroadDriving/ProjectThumbnail.jpg",
+            "Images/Projects/OffroadDriving/screenshot2.png",
+            "Images/Projects/OffroadDriving/screenshot3.png"
+        ]
+    },
+        {
+        "title": "World of Rabin",
+        "description": "Arcade rhythm game with procedural levels and smooth touch response.",
+        "playLink": "https://play.google.com/store/apps/details?id=com.example.hopball",
+        "screenshots": 
+        [
+            "Images/Projects/WorldOfRabin/ProjectThumbnail.jpg",
+            "Images/Projects/WorldOfRabin/screenshot2.png",
+            "Images/Projects/WorldOfRabin/screenshot3.png"
         ]
     },
     {
-        "title": "Robot Fighting",
+        "title": "Zombie Fever",
         "description": "PvP robot game with AI combat and dynamic animations.",
         "playLink": "https://play.google.com/store/apps/details?id=com.example.robotfight",
         "screenshots": 
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/ZombieFever/ProjectThumbnail.jpg",
+            "Images/Projects/ZombieFever/screenshot2.png",
+            "Images/Projects/ZombieFever/screenshot3.png"
         ]
     },
     {
@@ -93,9 +115,9 @@
         "playLink": "https://play.google.com/store/apps/details?id=com.example.hopball",
         "screenshots": 
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/HopBall/ProjectThumbnail.jpg",
+            "Images/Projects/HopBall/screenshot2.png",
+            "Images/Projects/HopBall/screenshot3.png"
         ]
     },
     {
@@ -104,9 +126,9 @@
         "playLink": "https://play.google.com/store/apps/details?id=com.example.arrowtwist",
         "screenshots": 
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/ArrowTwist/ProjectThumbnail.jpg",
+            "Images/Projects/ArrowTwist/screenshot2.png",
+            "Images/Projects/ArrowTwist/screenshot3.png"
         ]
     },
     {
@@ -115,9 +137,9 @@
         "playLink": "https://play.google.com/store/apps/details?id=com.example.wordcoach",
         "screenshots": 
         [
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+1",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+2",
-            "https://via.placeholder.com/160x100.png?text=Alpha+Returns+3"
+            "Images/Projects/WordCoach/ProjectThumbnail.jpg",
+            "Images/Projects/WordCoach/screenshot2.png",
+            "Images/Projects/WordCoach/screenshot3.png"
         ]
     }
   ]

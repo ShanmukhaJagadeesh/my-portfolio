@@ -16,7 +16,6 @@ export async function initProjects() {
                 ${(proj.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('')}
             </div>
             <button class="view-btn" data-index="${i}">View</button>
-            <a href="${proj.playLink}" class="play-btn mini" target="_blank">Play Store</a>
         `;
         container.appendChild(div);
     });
@@ -25,7 +24,7 @@ export async function initProjects() {
         const proj = projects[index];
         document.getElementById("modalTitle").innerText = proj.title;
         document.getElementById("modalDesc").innerText = proj.description;
-        document.getElementById("playLink").href = proj.playLink;
+        // document.getElementById("playLink").href = proj.playLink;
 
         const screenshotsDiv = document.querySelector(".modal-screenshots");
         screenshotsDiv.innerHTML = '';

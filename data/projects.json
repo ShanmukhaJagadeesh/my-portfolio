@@ -20,12 +20,6 @@
             "Images/Projects/AlphaReturns/weapon_selection.jpeg",
             "Images/Projects/AlphaReturns/Weapons_Showcase.webp.png"
         ],
-        "features": [
-            "Implemented Photon Fusion for real-time networking",
-            "Built modular weapon + inventory systems",
-            "Integrated NFT minting + wallet auth using Web3 SDK",
-            "Optimized rendering pipeline to boost FPS on mobile"
-        ],
         "roles": [
             "Lead Unity Developer for core game systems",
             "Integrated Photon Fusion for multiplayer",

@@ -73,23 +73,6 @@
   line-height: 1.6;
 }
 
-.features {
-  max-width: 760px;
-  margin: 32px auto;
-  padding: 10px 20px;
-}
-.features h3 {
-  color: #a58cff;
-  font-size: 1.4rem;
-  margin-bottom: 12px;
-}
-.features ul {
-  padding-left: 20px;
-  color: #ddd;
-  line-height: 1.6;
-  list-style-type: disc;
-}
-
 .play-btn {
   background-color: #34a853;
   color: white;

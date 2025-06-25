@@ -12,7 +12,7 @@ export async function initProjects() {
             </div>
             <h3 class="project-title">${proj.title}</h3>
             <p class="project-description">${proj.description}</p>
-            <a class="view-btn" href="HTML/project-details.html?project=${proj.title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}">View</a>
+            <a class="view-btn" href="html/project-details.html?project=${proj.title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}">View</a>
         `;
 
         container.appendChild(div);

@@ -8,15 +8,13 @@ export async function initProjects() {
         div.className = "project-item";
         div.innerHTML = `
             <div class="project-thumb">
-                <img src="${proj.screenshots?.[0] || 'fallback.jpg'}" alt="${proj.title}">
+                <img src="${proj.icon}" alt="${proj.title} Icon" />
             </div>
             <h3 class="project-title">${proj.title}</h3>
             <p class="project-description">${proj.description}</p>
-            <div class="project-tags">
-                ${(proj.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('')}
-            </div>
-            <button class="view-btn" data-index="${i}">View</button>
+            <a class="view-btn" href="HTML/project-details.html?project=${proj.title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}">View</a>
         `;
+
         container.appendChild(div);
     });
 

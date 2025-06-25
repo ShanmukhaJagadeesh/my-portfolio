@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Details</title>
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/projects.css" />
+  <link rel="stylesheet" href="../css/responsive.css" />
+  <link rel="stylesheet" href="../css/project-details.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand"><a href="../index.html" style="text-decoration:none; color:#a58cff;">home</a></div>
+  </header>
+
+  <section id="projectDetails">
+    <h1 id="projectTitle" class="big-title"></h1>
+
+    <div class="video-container">
+      <iframe id="youtubeVideo" width="100%" height="420" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="screenshot-gallery-wrapper">
+      <button class="gallery-btn left" id="scrollLeft">❮</button>
+      <div class="screenshot-gallery" id="screenshotGallery"></div>
+      <button class="gallery-btn right" id="scrollRight">❯</button>
+    </div>
+
+    <p id="shortDesc" class="short-desc"></p>
+
+    <div style="text-align:center;">
+      <a id="playButton" href="#" target="_blank" class="play-btn">Download on Play Store</a>
+    </div>
+
+    <div class="features">
+      <h3>What I Implemented</h3>
+      <ul id="featureList"></ul>
+    </div>
+
+    <!-- 🔹 Roles & Responsibilities -->
+    <section class="contribution-section">
+      <h3 class="section-title">My Roles & Responsibilities</h3>
+      <ul class="roles-list" id="rolesList"></ul>
+
+      <h3 class="section-title">What I Built</h3>
+      <div class="features-gallery" id="featuresGallery"></div>
+    </section>
+
+    <!-- 🔹 Related Projects -->
+    <div class="related-projects">
+      <h3>Other Projects</h3>
+      <div class="project-grid" id="otherProjects"></div>
+    </div>
+  </section>
+
+  <!-- 🔹 Lightbox Viewer -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-nav left" id="lightboxPrev">❮</button>
+    <img id="lightboxImg" src="" alt="Full Screenshot" />
+    <button class="lightbox-nav right" id="lightboxNext">❯</button>
+    <span class="lightbox-close" id="lightboxClose">×</span>
+  </div>
+
+  <script type="module" src="../js/project-details.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+{
+    "title": "Word Coach",
+    "icon": "Images/Projects/WordCoach/ProjectIcon.jpg",
+    "description": "Relaxing crossword word puzzle game with 6,000+ levels.",
+    "shortDesc": "Swipe, solve, and sharpen your vocabulary with 6,000+ crossword puzzles. Enjoy a relaxing and immersive word journey across beautifully designed worlds filled with daily challenges, brain boosters, and vocabulary training. A rewarding game for players of all ages.",
+    "playLink": "",
+    "youtube": "https://www.youtube.com/embed/gKUrRWPIu5M",
+    "screenshots": 
+    [
+        "Images/Projects/WordCoach/Screenshot_1.jpg",
+        "Images/Projects/WordCoach/Screenshot_2.jpg",
+        "Images/Projects/WordCoach/Screenshot_3.jpg", 
+        "Images/Projects/WordCoach/Screenshot_4.jpg",
+        "Images/Projects/WordCoach/Screenshot_5.jpg",
+        "Images/Projects/WordCoach/Screenshot_6.jpg",
+        "Images/Projects/WordCoach/Screenshot_7.jpg",
+        "Images/Projects/WordCoach/Screenshot_8.jpg"
+    ],
+    "roles": [
+        "Led full development cycle using Unity with C# and Scriptable Objects.",
+        "Designed and implemented modular crossword and word-connect logic.",
+        "Built an adaptive level system with increasing difficulty and daily puzzle content.",
+        "Created relaxing themes with animated backgrounds, sound design, and visual polish.",
+        "Integrated hint systems, power-ups, and reward loops to boost player retention.",
+        "Managed Play Store deployment, ASO metadata, and app updates with new content."
+    ],
+    "contributions": [
+        {
+            "name": "Word Puzzle Engine",
+            "image": "",
+            "shortDesc": "Created a scalable, dynamic word puzzle system with 6,000+ levels.",
+            "details": [
+                "Designed a flexible level architecture to support crossword, anagram, and word-connect modes.",
+                "Implemented progressive logic with difficulty ramps and in-app progression tracking.",
+                "Integrated in-game hint mechanics such as letter reveals and shuffle.",
+                "Developed a level pack generator using curated word banks and difficulty metadata."
+            ]
+        },
+        {
+            "name": "Visual & Audio Experience",
+            "image": "",
+            "shortDesc": "Crafted a calming and elegant game atmosphere with responsive UI.",
+            "details": [
+                "Designed animated world maps and themed backgrounds for each chapter.",
+                "Added audio feedback and ambient music to enhance puzzle-solving flow.",
+                "Created responsive UI layouts for all screen sizes and platforms.",
+                "Maintained accessible font sizes and contrast for wide age-range usability."
+            ]
+        },
+        {
+            "name": "Retention & Monetization",
+            "image": "",
+            "shortDesc": "Encouraged long-term engagement through daily puzzles and rewards.",
+            "details": [
+                "Implemented daily puzzle rewards, achievement goals, and progression tracking.",
+                "Balanced soft-currency coin economy for hint usage and puzzle unlocks.",
+                "Enabled optional ad monetization for hints and retry bonuses.",
+                "Designed retention systems including monthly content drops and seasonal events."
+            ]
+        },
+        {
+            "name": "Publishing & Live Updates",
+            "image": "",
+            "shortDesc": "Managed store listing, build optimization, and versioning.",
+            "details": [
+                "Published on Google Play with complete store metadata, icon sets, and feature graphics.",
+                "Performed QA, performance testing, and multi-device resolution validation.",
+                "Packaged lightweight builds optimized for low-end devices and offline access.",
+                "Released regular updates with bug fixes, new chapters, and puzzle packs."
+            ]
+        }
+    ]
+}

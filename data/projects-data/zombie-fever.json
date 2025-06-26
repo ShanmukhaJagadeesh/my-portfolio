@@ -1,0 +1,62 @@
+{
+    "title": "Zombie Fever",
+    "icon": "Images/Projects/ZombieFever/ProjectIcon.jpg",
+    "description": "Shoot, survive, and escape the zombie apocalypse!",
+    "shortDesc": "Step into a post-apocalyptic world overrun by the undead. Armed with powerful weapons and quick reflexes, fight your way through zombie-infested streets to reach the last research center. Survive intense shootouts, use power-ups, rescue hostages, and stay alive in King of the Hill or Horde modes. Shoot, run, and survive—this is humanity's last stand.",
+    "playLink": "https://play.google.com/store/apps/details?id=com.supercodegames.android.zombiefever",
+    "youtube": "https://www.youtube.com/embed/W5DrjB4Hskw",
+    "screenshots": 
+    [
+        "Images/Projects/ZombieFever/Screenshot_1.jpg",
+        "Images/Projects/ZombieFever/Screenshot_2.jpg",
+        "Images/Projects/ZombieFever/Screenshot_3.jpg", 
+        "Images/Projects/ZombieFever/Screenshot_4.jpg",
+        "Images/Projects/ZombieFever/Screenshot_5.jpg",
+        "Images/Projects/ZombieFever/Screenshot_6.jpg"
+    ],
+    "roles": [
+        "Spearheaded the entire game development lifecycle as a solo Unity developer, from concept to final release.",
+        "Designed and implemented core gameplay mechanics including AI behavior, shooting systems, power-ups, and mission logic.",
+        "Engineered scalable game architecture with performance optimization techniques for smooth gameplay on low-end Android devices.",
+        "Created intuitive UI/UX interfaces with responsive controls and interactive HUD elements.",
+        "Authored and integrated all visual effects, audio systems, and animation controllers to enhance player immersion.",
+        "Managed Play Store publishing process including APK build pipelines, asset compression, and release compliance.",
+        "Conducted in-depth testing, bug fixing, and performance profiling to ensure high-quality player experience."
+    ],
+    "contributions": 
+    [
+        {
+            "name": "Gameplay Systems",
+            "image": "",
+            "shortDesc": "Designed and implemented core zombie shooter mechanics.",
+            "details": [
+                "Developed dynamic zombie AI with pursuit, attack, and pathfinding behaviors.",
+                "Implemented shooting, weapon upgrades, health kits, and grenade systems.",
+                "Designed survival and mission modes including Horde and Rescue objectives.",
+                "Balanced difficulty scaling and pacing through waves and player stats."
+            ]
+        },
+        {
+            "name": "Technical Development",
+            "image": "",
+            "shortDesc": "Engineered all technical systems and optimized performance.",
+            "details": [
+                "Built the full architecture in Unity using C# with modular design.",
+                "Implemented object pooling for performance across low-end devices.",
+                "Handled level design with enemy spawner systems and power-up triggers.",
+                "Integrated animation controllers, blend trees, and VFX for enemy deaths."
+            ]
+        },
+        {
+            "name": "UI/UX & Publishing",
+            "image": "",
+            "shortDesc": "Crafted the player interface and managed store publishing.",
+            "details": [
+                "Created responsive UI for health, ammo, wave tracker, and pause menu.",
+                "Handled localization-ready UI and smooth screen transitions.",
+                "Published the game to Google Play with compliance and build pipeline.",
+                "Optimized asset compression and build size for APK distribution."
+            ]
+        }
+    ]
+}

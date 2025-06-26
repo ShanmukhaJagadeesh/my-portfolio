@@ -1,0 +1,66 @@
+{
+    "title": "Roulette Wheel VR",
+    "icon": "Images/Projects/RouletteWheelVR/ProjectIcon.jpg",
+    "description": "Multiplayer roulette game with gesture-based betting in VR.",
+    "shortDesc": "Experience the thrill of live roulette in virtual reality. Place your bets with intuitive hand gestures, interact with a lifelike wheel, and enjoy multiplayer casino realism with voice chat, animated avatars, and physics-based chips—all in an immersive VR space.",
+    "playLink": "",
+    "youtube": "",
+    "screenshots": [
+
+    ],
+    "roles": [
+        "Developed immersive VR roulette gameplay with physics-based chip placement and gesture-driven UI.",
+        "Integrated hand tracking for natural betting gestures, chip grabbing, and table interaction.",
+        "Implemented real-time multiplayer table logic with synced bets, wheel spin, and result animations.",
+        "Optimized 3D assets and interactions to maintain stable VR performance on Oculus Quest hardware.",
+        "Collaborated with design, animation, and audio teams to simulate realistic casino ambiance.",
+        "Built user state handling for bet timers, game rounds, session rejoin, and spectator modes.",
+        "Tested seated and standing VR experiences for input comfort and play fluidity."
+    ],
+    "contributions": [
+        {
+            "name": "Gameplay & Bet Handling",
+            "image": "Images/Projects/RouletteWheelVR/Gameplay.jpg",
+            "shortDesc": "Developed core roulette mechanics with bet validation and round flow.",
+            "details": [
+                "Implemented logic for inside and outside bets, number targeting, and win/loss resolution.",
+                "Created visual bet zones on the table with live feedback on placement and stack size.",
+                "Built betting timer and lockout controls to sync all players to a shared round state.",
+                "Simulated realistic wheel spin physics with result animation and chip collection."
+            ]
+        },
+        {
+            "name": "VR Interaction & Gesture Control",
+            "image": "Images/Projects/RouletteWheelVR/Interaction.jpg",
+            "shortDesc": "Enabled natural interaction through VR hand tracking and controller support.",
+            "details": [
+                "Allowed players to grab, drag, and place chips using hand gestures or VR controllers.",
+                "Added gesture-based undo and bet confirmation actions for frictionless gameplay.",
+                "Used collider-driven zones for chip placement accuracy and visual alignment.",
+                "Tested and refined interaction thresholds for consistent input across players."
+            ]
+        },
+        {
+            "name": "Multiplayer & Networking",
+            "image": "Images/Projects/RouletteWheelVR/Multiplayer.jpg",
+            "shortDesc": "Created a real-time, multi-user roulette environment.",
+            "details": [
+                "Integrated Photon to synchronize chip placements, spin results, and payouts.",
+                "Built player join/leave logic with visual seat assignment and host fallback.",
+                "Implemented voice chat with positional audio for realistic in-room communication.",
+                "Added server-side validation of round results to ensure fair outcomes."
+            ]
+        },
+        {
+            "name": "Visual Polish & Casino UX",
+            "image": "Images/Projects/RouletteWheelVR/Visuals.jpg",
+            "shortDesc": "Designed immersive VR casino scenes and polished interactions.",
+            "details": [
+                "Modeled roulette tables, chips, and UI with high visual fidelity and clean layout.",
+                "Used lighting, reflections, and particle effects to enhance the spin and win moments.",
+                "Implemented avatar gestures, eye contact, and proximity-based reactions for immersion.",
+                "Optimized all assets for Quest-grade hardware performance and visual quality balance."
+            ]
+        }
+    ]
+}

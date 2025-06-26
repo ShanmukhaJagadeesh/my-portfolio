@@ -1,0 +1,85 @@
+{
+    "title": "Hop Ball",
+    "icon": "Images/Projects/HopBall/ProjectIcon.jpg",
+    "description": "Endless arcade game with bouncing rhythm-based mechanics.",
+    "shortDesc": "Control a bouncing ball as it hops across pillars in this visually vibrant and highly addictive arcade game. Swipe to guide the ball, maintain momentum, collect skins, and set high scores across dynamic and ever-changing environments.",
+    "playLink": "https://play.google.com/store/apps/details?id=com.example.alphareturns",
+    "youtube": "",
+    "screenshots": 
+    [
+        "Images/Projects/HopBall/Screenshot_1.jpg",
+        "Images/Projects/HopBall/Screenshot_2.jpg",
+        "Images/Projects/HopBall/Screenshot_3.jpg", 
+        "Images/Projects/HopBall/Screenshot_4.jpg",
+        "Images/Projects/HopBall/Screenshot_5.jpg",
+        "Images/Projects/HopBall/Screenshot_6.jpg",
+        "Images/Projects/HopBall/Screenshot_7.jpg",
+        "Images/Projects/HopBall/Screenshot_8.jpg"
+    ],
+        "roles": [
+        "Designed and developed the full game loop and input controls in Unity.",
+        "Built physics-based hop mechanics with acceleration, combos, and pillar transitions.",
+        "Implemented endless level generation with randomized tiles and difficulty scaling.",
+        "Created collectible ball and pillar skins with unlock progression and visual FX.",
+        "Added one-touch responsive swipe input with rhythm-style timing feedback.",
+        "Integrated IAP and rewarded ads for skins, continues, and score boosts.",
+        "Optimized visuals, sound effects, and UI for casual mobile audiences and kids."
+    ],
+    "contributions": [
+        {
+            "name": "Core Gameplay & Physics",
+            "image": "Images/Projects/HopBall/Gameplay.jpg",
+            "shortDesc": "Engineered smooth hop mechanics and intuitive swipe-based control.",
+            "details": [
+                "Implemented tap-and-drag input to control lateral ball movement.",
+                "Built bouncing physics with dynamic speed ramping and jump feedback.",
+                "Added score multipliers for perfect hops and combos.",
+                "Handled falling logic and restart triggers to balance challenge and fun."
+            ]
+        },
+        {
+            "name": "Level Generation",
+            "image": "Images/Projects/HopBall/LevelGen.jpg",
+            "shortDesc": "Created an endless pillar spawning system with increasing challenge.",
+            "details": [
+                "Designed procedural generation with adjustable spacing and pillar types.",
+                "Introduced visual variation and FX to avoid repetition.",
+                "Implemented dynamic speed scaling to increase intensity over time.",
+                "Enabled camera-follow logic with smooth transitions and zoom effects."
+            ]
+        },
+        {
+            "name": "Skins, Rewards & Customization",
+            "image": "Images/Projects/HopBall/Skins.jpg",
+            "shortDesc": "Added collectible cosmetic content and interactive unlock systems.",
+            "details": [
+                "Created a variety of unlockable ball skins and themed pillar designs.",
+                "Implemented coin economy and progress-based skin unlocking.",
+                "Added skin preview UI and rotating skin showcase carousel.",
+                "Balanced unlock curve for daily play without hard paywalls."
+            ]
+        },
+        {
+            "name": "Monetization & Retention",
+            "image": "Images/Projects/HopBall/Monetization.jpg",
+            "shortDesc": "Integrated ads and IAPs to enhance gameplay without intrusiveness.",
+            "details": [
+                "Added rewarded video ads for continues, coins, and skin unlocks.",
+                "Included IAP for ad removal and special cosmetic bundles.",
+                "Designed UI flows to surface rewards organically without interrupting gameplay.",
+                "Used light analytics to monitor feature usage and drop-off points."
+            ]
+        },
+        {
+            "name": "Visual FX & Mobile Optimization",
+            "image": "Images/Projects/HopBall/FX.jpg",
+            "shortDesc": "Polished the game with vibrant visuals and smooth performance.",
+            "details": [
+                "Implemented glow effects, particle bursts, and screen shakes on hops and combos.",
+                "Used animated skyboxes and background transitions for visual diversity.",
+                "Maintained performance across devices using batching and GPU instancing.",
+                "Kept APK lightweight while supporting fluid 60 FPS gameplay."
+            ]
+        }
+    ]
+}

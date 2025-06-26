@@ -1,0 +1,83 @@
+{
+    "title": "Offroad Driving",
+    "icon": "Images/Projects/OffroadDriving/ProjectIcon.jpg",
+    "description": "Realistic off-road driving game with dynamic terrain physics.",
+    "shortDesc": "Experience extreme terrain driving with realistic vehicle physics and immersive environments. Choose from a range of vehicles and conquer hills, mud, water, and rough roads. Explore open landscapes and push your off-road skills to the limit.",
+    "playLink": "https://play.google.com/store/apps/details?id=com.supercodegames.android.offroaddriving",
+    "youtube": "https://www.youtube.com/embed/6jdOQuT39Vo",
+    "screenshots": 
+    [
+        "Images/Projects/OffroadDriving/Screenshot_1.jpg",
+        "Images/Projects/OffroadDriving/Screenshot_2.jpg",
+        "Images/Projects/OffroadDriving/Screenshot_3.jpg", 
+        "Images/Projects/OffroadDriving/Screenshot_4.jpg",
+        "Images/Projects/OffroadDriving/Screenshot_5.jpg",
+        "Images/Projects/OffroadDriving/Screenshot_6.jpg"
+    ],
+    "roles": [
+        "Led solo development of an off-road driving simulator using Unity 3D.",
+        "Implemented terrain interaction systems, vehicle dynamics, and real-time physics.",
+        "Created multiple environments and level types including hills, rivers, and mud paths.",
+        "Designed control schemes for both tilt and touch steering with responsive UI.",
+        "Built unlockable vehicle system with varying stats (torque, grip, suspension).",
+        "Integrated rewarded ads, coin economy, and IAP for new vehicles and upgrades.",
+        "Optimized rendering and physics to maintain high frame rate on low-end devices."
+    ],
+    "contributions": [
+        {
+            "name": "Driving Physics & Terrain Systems",
+            "image": "Images/Projects/OffroadDriving/Physics.jpg",
+            "shortDesc": "Crafted terrain-aware driving mechanics and dynamic suspension behavior.",
+            "details": [
+                "Simulated realistic suspension, wheel colliders, torque curves, and ground friction.",
+                "Implemented different ground materials (mud, rock, sand) with drag and slip factors.",
+                "Created terrain deformation and slope resistance for immersive off-road feel.",
+                "Balanced vehicle stats for performance, stability, and challenge curve."
+            ]
+        },
+        {
+            "name": "Vehicle System & Garage",
+            "image": "Images/Projects/OffroadDriving/Vehicles.jpg",
+            "shortDesc": "Built a modular system for vehicle selection and upgrades.",
+            "details": [
+                "Created multiple driveable vehicles with distinct handling profiles.",
+                "Implemented vehicle unlock logic tied to progression and currency.",
+                "Added visual customization for wheels, paint, and suspension kits.",
+                "Stored vehicle data persistently using scriptable and saved states."
+            ]
+        },
+        {
+            "name": "UI/UX & Control Schemes",
+            "image": "Images/Projects/OffroadDriving/UI.jpg",
+            "shortDesc": "Developed intuitive driving interface and feedback systems.",
+            "details": [
+                "Implemented HUD for speedometer, gear, tilt angle, and terrain warnings.",
+                "Designed multiple control modes: button-based, tilt, and joystick.",
+                "Built responsive garage UI, pause menus, and challenge mode indicators.",
+                "Optimized layout for one-handed and two-handed mobile gameplay."
+            ]
+        },
+        {
+            "name": "Monetization & Progression",
+            "image": "Images/Projects/OffroadDriving/Monetization.jpg",
+            "shortDesc": "Balanced free-to-play design with rewarding progression.",
+            "details": [
+                "Implemented rewarded ads for coins, fuel boosts, and retry options.",
+                "Integrated coin-based economy for vehicle unlocks and upgrades.",
+                "Supported IAPs for coin packs and ad-free experience.",
+                "Designed level challenges and terrain tracks that encourage replayability."
+            ]
+        },
+        {
+            "name": "Optimization & Publishing",
+            "image": "Images/Projects/OffroadDriving/Optimization.jpg",
+            "shortDesc": "Ensured high performance and deployment readiness.",
+            "details": [
+                "Used terrain LODs, mesh baking, and lightmapping for smooth rendering.",
+                "Maintained consistent frame rate on devices with limited GPU/CPU power.",
+                "Compressed textures and used memory pools to reduce runtime spikes.",
+                "Published game to Google Play with ASO-friendly metadata and assets."
+            ]
+        }
+    ]
+}

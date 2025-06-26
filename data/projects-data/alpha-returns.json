@@ -1,0 +1,207 @@
+{
+    "title": "Alpha Returns",
+    "icon": "Images/Projects/AlphaReturns/ProjectIcon.jpg",
+    "description": "Web3 multiplayer PvP shooter with tokenized assets and crypto rewards.",
+    "shortDesc": "PvP shooter built with Web3, NFT economy and multiplayer combat.",
+    "playLink": "https://play.google.com/store/apps/details?id=com.example.alphareturns",
+    "youtube": "https://www.youtube.com/embed/iw8KiUCBdqs",
+    "screenshots": [
+        "Images/Projects/AlphaReturns/Environment_Selection.jpeg",
+        "Images/Projects/AlphaReturns/First_person.png",
+        "Images/Projects/AlphaReturns/iap.jpeg",
+        "Images/Projects/AlphaReturns/main_menu_2.jpeg",
+        "Images/Projects/AlphaReturns/main_menu.jpeg",
+        "Images/Projects/AlphaReturns/missions.jpeg",
+        "Images/Projects/AlphaReturns/multiple_Environments.jpg",
+        "Images/Projects/AlphaReturns/shop.jpeg",
+        "Images/Projects/AlphaReturns/Spin_Wheel.png",
+        "Images/Projects/AlphaReturns/third_person.png",
+        "Images/Projects/AlphaReturns/weapon_selection.jpeg",
+        "Images/Projects/AlphaReturns/Weapons_Showcase.webp.png"
+    ],
+    "roles": [
+        "Led the development of 'Alpha Returns' from prototype to launch as Lead Unity Developer, overseeing both client and gameplay systems.",
+        "Architected scalable multiplayer PvP systems using Photon and custom backend logic to support real-time matchmaking and room management.",
+        "Designed and implemented player movement, weapon systems, projectile handling, health/damage logic, and respawn mechanics with network synchronization.",
+        "Integrated blockchain infrastructure for tokenized assets, in-game NFT rewards, and wallet connectivity using Web3 standards.",
+        "Developed a secure inventory system for blockchain-based ownership of skins, weapons, and characters, ensuring tamper-proof progression.",
+        "Worked closely with blockchain engineers to bridge on-chain data with in-game mechanics using asynchronous APIs and smart contract events.",
+        "Created a modular, extensible architecture using ScriptableObjects, ECS-inspired design patterns, and custom Unity tooling.",
+        "Optimized CPU/GPU performance through object pooling, draw call reduction, material instancing, and asynchronous scene loading.",
+        "Maintained a stable 60 FPS target across high-end and mid-range Android devices using aggressive profiling and diagnostic tooling.",
+        "Established CI-ready project workflows with Git branching strategy, package-based modularization, and platform-specific build pipelines.",
+        "Collaborated with the game design team to balance weapon stats, hit feedback, map flow, and enemy spawn logic for competitive fairness.",
+        "Directed and mentored a cross-functional team of developers, designers, and QA testers, ensuring high-quality feature delivery through agile sprints.",
+        "Managed sprint planning, task estimation, and JIRA workflow for ongoing updates, bug fixes, and milestone planning.",
+        "Defined internal technical standards for code structure, performance metrics, asset management, and team-wide best practices.",
+        "Reviewed PRs, performed architecture audits, and ensured compliance with platform requirements and blockchain security protocols."
+    ],
+    "contributions": [
+    {
+    "name": "Team Leadership & Delivery",
+    "shortDesc": "Led a 15+ member team through full production lifecycle using Agile methodology.",
+    "details": [
+        "Directed a cross-functional team of Unity developers, blockchain engineers, 2D/3D artists, and QA testers.",
+        "Defined project roadmap, sprint goals, and delivery milestones using Jira and GitHub.",
+        "Facilitated daily stand-ups, sprint reviews, and post-mortems to ensure team alignment and accountability.",
+        "Conducted code reviews to enforce consistency, scalability, and best practices across all Unity modules.",
+        "Handled conflict resolution, mentored junior developers, and drove team motivation and retention."
+        ]
+    },
+    {
+    "name": "Technical Architecture & System Design",
+    "shortDesc": "Built modular, scalable, and maintainable game architecture for a multiplayer blockchain-integrated mobile title.",
+    "details": [
+        "Used ScriptableObjects extensively for configurable gameplay elements such as weapons, abilities, rewards, and bot stats.",
+        "Implemented event-driven systems to decouple game logic, including UI transitions, reward triggers, and player state changes.",
+        "Organized systems into Unity packages and assembly definitions for clean dependency management.",
+        "Followed SOLID principles, component-based architecture, and clean code patterns for long-term maintainability.",
+        "Maintained separation of concerns between networking, gameplay logic, and UI systems to ease testing and reuse."
+        ]
+    },
+    {
+    "name": "Analytics & Live Game Monitoring",
+    "shortDesc": "Designed game telemetry for player behavior, retention tracking, and crash analytics.",
+    "details": [
+        "Integrated Firebase Analytics and Unity Analytics for tracking player sessions, level drop-offs, and engagement loops.",
+        "Captured events like match start/end, NFT claims, purchase conversion, and UI funnel interactions.",
+        "Implemented crash and error reporting using Firebase Crashlytics and Unity Cloud Diagnostics.",
+        "Enabled remote config and A/B testing hooks for LiveOps tuning (e.g. reward values, item availability).",
+        "Used analytics dashboards to validate design decisions and iterate based on real-world player data."
+        ]
+    },
+    {
+        "name": "Multiplayer PvP with Photon Fusion",
+        "image": "",
+        "shortDesc": "Implemented real-time multiplayer using Photon Fusion with support for FPS and TPS combat.",
+        "details": [
+        "Built tick-based prediction and lag compensation systems for smooth, competitive gameplay.",
+        "Handled room lifecycle: matchmaking, reconnect, and state syncing.",
+        "Supported real-time character control, shooting, respawns, and networked hit validation.",
+        "Optimized network payloads for mobile performance."
+        ]
+    },
+    {
+        "name": "Modular Weapon & Inventory System",
+        "image": "Images/Projects/AlphaReturns/Weapons_Showcase.webp.png",
+        "shortDesc": "Created a dynamic weapon system with support for upgrades, attachments, and multiplayer syncing.",
+        "details": [
+        "Used ScriptableObjects to define weapon classes and stats.",
+        "Developed real-time attachment toggling (scopes, silencers, skins).",
+        "Inventory persisted across matches using blockchain or cloud backend.",
+        "Supported multiplayer weapon swaps, drops, and usage tracking."
+        ]
+    },
+    {
+        "name": "Web3 NFT Integration",
+        "image": "Images/Projects/AlphaReturns/shop.jpeg",
+        "shortDesc": "Integrated blockchain wallet login, NFT minting, and ownership-based asset access.",
+        "details": [
+        "Connected wallet SDK for account linking and token verification.",
+        "Enabled players to view, claim, and equip NFTs in-game.",
+        "Assets linked to blockchain contracts for authenticity and scarcity.",
+        "UI adapted based on wallet status and ownership."
+        ]
+    },
+    {
+        "name": "Hybrid Economy: IAP + Token",
+        "image": "Images/Projects/AlphaReturns/iap.jpeg",
+        "shortDesc": "Enabled both Google Play in-app purchases and crypto-token rewards in a unified system.",
+        "details": [
+        "Used Google Play Billing for fiat purchases of premium items.",
+        "Integrated blockchain token system for daily/earned rewards.",
+        "Balanced economy around both traditional and Web3 systems.",
+        "Synced purchase results to Firebase and on-chain records."
+        ]
+    },
+    {
+        "name": "Matchmaking & Room Management",
+        "image": "Images/Projects/AlphaReturns/Environment_Selection.jpeg",
+        "shortDesc": "Implemented real-time matchmaking with ELO balancing and bot fallback.",
+        "details": [
+        "Created lobby matching logic based on player skill and availability.",
+        "Handled Photon Room creation, joining, and teardown events.",
+        "Fallback logic inserts AI bots if real players are unavailable.",
+        "Ensured minimal wait time with match-ready UX flow."
+        ]
+    },
+    {
+        "name": "AI Bots for PvP",
+        "image": "Images/Projects/AlphaReturns/missions.jpeg",
+        "shortDesc": "Built intelligent AI bots using state-based behavior trees for fallback multiplayer.",
+        "details": [
+        "Used FSM and Unity NavMesh for smart pathfinding and tactical behavior.",
+        "Enabled bots to patrol, chase, shoot, reload, and retreat.",
+        "Difficulty scaled dynamically based on player skill level.",
+        "Bots integrated with real player logic and synced over network."
+        ]
+    },
+    {
+        "name": "Game UI & UX",
+        "image": "Images/Projects/AlphaReturns/main_menu.jpeg",
+        "shortDesc": "Designed responsive UI with animated menus, lobbies, and touch-friendly controls.",
+        "details": [
+        "Built using Unity UI Toolkit with custom animations and transitions.",
+        "Mobile-first layout for seamless navigation and input handling.",
+        "Lobby, loadout, reward, and result screens fully modular and theme-aware.",
+        "Integrated haptic and audio feedback to enhance interactivity."
+        ]
+    },
+    {
+        "name": "NFT Reward Spin Wheel",
+        "image": "Images/Projects/AlphaReturns/Spin_Wheel.png",
+        "shortDesc": "Created a gamified reward wheel with NFT reward triggers tied to smart contracts.",
+        "details": [
+        "Spin outcome triggers blockchain minting or token payout.",
+        "Used physics-based spin and rarity distribution logic.",
+        "Reward animation, confirmation UI, and cooldowns included.",
+        "Prevents reward abuse through hashed results and backend validation."
+        ]
+    },
+    {
+        "name": "Performance Optimization (10x)",
+        "image": "Images/Projects/AlphaReturns/main_menu_2.jpeg",
+        "shortDesc": "Boosted FPS and reduced memory usage through asset and logic optimization.",
+        "details": [
+        "Used object pooling, static batching, and LOD systems.",
+        "Optimized texture usage via atlases and compression.",
+        "Reduced GC pressure and CPU spikes via system refactors.",
+        "Achieved 60+ FPS even on 3–4 GB RAM Android devices."
+        ]
+    },
+    {
+        "name": "Environment Streaming",
+        "image": "Images/Projects/AlphaReturns/multiple_Environments.jpg",
+        "shortDesc": "Added support for multiple levels with async loading and LOD optimization.",
+        "details": [
+        "Built scene streaming using Unity Addressables.",
+        "Preloaded assets for seamless transitions between maps.",
+        "Used baked lighting and occlusion for memory-efficient environments.",
+        "Added level-specific logic for loot zones and player spawns."
+        ]
+    },
+    {
+        "name": "Weapon Loadout UI",
+        "image": "Images/Projects/AlphaReturns/weapon_selection.jpeg",
+        "shortDesc": "Designed intuitive UI for comparing, selecting, and equipping weapons.",
+        "details": [
+        "Real-time preview of 3D weapon models with animation.",
+        "Weapon stats and rarity clearly visualized.",
+        "Supports drag-and-drop and NFT-bound lock icons.",
+        "Equipped loadout synced to multiplayer spawn logic."
+        ]
+    },
+    {
+        "name": "FPS Combat Mechanics",
+        "image": "Images/Projects/AlphaReturns/First_person.png",
+        "shortDesc": "Implemented immersive FPS shooting with recoil, crosshair, and visual feedback.",
+        "details": [
+        "Used raycast- and projectile-based weapon logic.",
+        "Implemented recoil animation, headshot detection, and hit markers.",
+        "Synced effects like blood splatter, camera shake, and muzzle flash.",
+        "Balanced TTK (time to kill) values per weapon class."
+        ]
+    }
+    ]
+
+}

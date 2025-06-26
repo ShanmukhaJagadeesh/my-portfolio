@@ -1,0 +1,66 @@
+{
+    "title": "Fortune Funnel VR",
+    "icon": "Images/Projects/FortuneFunnelVR/ProjectIcon.jpg",
+    "description": "Physics-based VR puzzle game with funnels, gravity, and haptic feedback.",
+    "shortDesc": "Solve dynamic physics puzzles by guiding objects through interactive funnels, ramps, and traps in VR. Fortune Funnel VR blends tactile object handling with puzzle-solving in a uniquely satisfying, immersive environment built for Oculus Quest.",
+    "playLink": "",
+    "youtube": "",
+    "screenshots": [
+
+    ],
+    "roles": [
+        "Developed interactive physics-based puzzle systems with real-time object simulation in VR.",
+        "Implemented funnel, lever, gravity, and switch mechanics for dynamic puzzle flows.",
+        "Built gesture-based object grabbing, throwing, and placement systems using Oculus hand tracking.",
+        "Designed modular puzzle templates with increasing complexity, timed triggers, and traps.",
+        "Collaborated with design and audio teams to enhance tactile and haptic feedback systems.",
+        "Optimized for low-latency, high-accuracy collision handling across complex puzzle objects.",
+        "Handled scene streaming, memory pooling, and draw call optimization for smooth Quest performance."
+    ],
+    "contributions": [
+        {
+            "name": "Physics Puzzle Systems",
+            "image": "Images/Projects/FortuneFunnelVR/Physics.jpg",
+            "shortDesc": "Designed modular funnel puzzles with interactive logic.",
+            "details": [
+                "Created gravity-based systems where users guide balls through tunnels, ramps, and rotating elements.",
+                "Implemented collision logic with gates, launchers, and timed pressure pads.",
+                "Allowed player experimentation with cause-effect mechanisms in progressively challenging levels.",
+                "Developed reusable puzzle templates using ScriptableObjects and timeline-based triggers."
+            ]
+        },
+        {
+            "name": "VR Interaction & Object Handling",
+            "image": "Images/Projects/FortuneFunnelVR/Interaction.jpg",
+            "shortDesc": "Enabled tactile interaction using VR hands and precision physics.",
+            "details": [
+                "Built systems for grabbing, rotating, and placing puzzle parts using Oculus hand tracking.",
+                "Added two-handed manipulation for scaling, alignment, and balance-based actions.",
+                "Implemented throw physics with velocity matching and spin impulse.",
+                "Used collider feedback and haptics to reinforce successful object placement."
+            ]
+        },
+        {
+            "name": "Immersive UX & Visual Feedback",
+            "image": "Images/Projects/FortuneFunnelVR/UX.jpg",
+            "shortDesc": "Enhanced immersion with dynamic feedback and intuitive cues.",
+            "details": [
+                "Created glowing highlights and sound cues for interactive parts and completed objectives.",
+                "Implemented particle effects and slow-motion moments for milestone puzzle completions.",
+                "Designed environments with depth layering, fog, and ambient lighting for immersion.",
+                "Maintained visual clarity and depth perception to support precise interaction."
+            ]
+        },
+        {
+            "name": "Performance Optimization",
+            "image": "Images/Projects/FortuneFunnelVR/Optimization.jpg",
+            "shortDesc": "Ensured high performance and smooth VR experience on Oculus Quest.",
+            "details": [
+                "Used mesh batching, occlusion culling, and dynamic quality switching for stable FPS.",
+                "Pooled puzzle parts and interaction objects to minimize memory allocation spikes.",
+                "Tested extensively in room-scale and seated VR setups with full rotation tracking.",
+                "Packaged scenes with LODs and baked lighting for fast loading and visual consistency."
+            ]
+        }
+    ]
+}

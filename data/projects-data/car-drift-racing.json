@@ -1,0 +1,84 @@
+{
+    "title": "Car Drift Racing",
+    "icon": "Images/Projects/CarDriftRacing/ProjectIcon.jpg",
+    "description": "Realistic mobile drift racing with fine-tuned car physics.",
+    "shortDesc": "Master the art of drifting in this fast-paced mobile racer. Perform smooth drifts, unlock high-performance cars, and race across visually diverse tracks. Built for precision handling and rewarding style-based gameplay, with support for upgrades, coins, and IAP..",
+    "playLink": "https://play.google.com/store/apps/details?id=com.supercodegames.android.cardrift",
+    "youtube": "https://www.youtube.com/embed/si2HdzLv94w",
+    "screenshots": 
+    [
+        "Images/Projects/CarDriftRacing/Screenshot_1.jpg",
+        "Images/Projects/CarDriftRacing/Screenshot_2.jpg",
+        "Images/Projects/CarDriftRacing/Screenshot_3.jpg", 
+        "Images/Projects/CarDriftRacing/Screenshot_4.jpg",
+        "Images/Projects/CarDriftRacing/Screenshot_5.jpg",
+        "Images/Projects/CarDriftRacing/Screenshot_6.jpg",
+        "Images/Projects/CarDriftRacing/Screenshot_7.jpg"
+    ],
+    "roles": [
+        "Led full development including physics, UI, monetization, and performance optimization.",
+        "Implemented realistic drift physics with handbrake, steering, and tire grip logic.",
+        "Created responsive car controls for both tilt and touch modes.",
+        "Designed multiple tracks with drift zones and score-based rewards.",
+        "Built garage system with unlockable cars, upgrades, and tuning options.",
+        "Integrated rewarded ads, IAP for coin packs, and daily login rewards.",
+        "Optimized for smooth performance on low-end Android devices with minimal APK size."
+    ],
+    "contributions": [
+        {
+            "name": "Drift Physics & Controls",
+            "image": "Images/Projects/CarDriftRacing/Physics.jpg",
+            "shortDesc": "Built custom drift physics for tight and responsive racing.",
+            "details": [
+                "Simulated realistic drift dynamics using Unity Wheel Colliders and lateral slip.",
+                "Implemented traction loss, steering sensitivity, and friction-based control.",
+                "Enabled handbrake drift triggers and combo scoring based on drift angle/duration.",
+                "Supported both tilt and on-screen button controls with smooth feedback."
+            ]
+        },
+        {
+            "name": "Garage, Cars & Upgrades",
+            "image": "Images/Projects/CarDriftRacing/Garage.jpg",
+            "shortDesc": "Created a progression system with customizable and unlockable vehicles.",
+            "details": [
+                "Built a garage system to showcase, select, and upgrade cars.",
+                "Defined car stats (speed, handling, drift efficiency) using ScriptableObjects.",
+                "Implemented upgrade logic for tires, engines, and drift boosts.",
+                "Created visually unique car skins and tuning packs for IAP integration."
+            ]
+        },
+        {
+            "name": "Tracks & Level Design",
+            "image": "Images/Projects/CarDriftRacing/Tracks.jpg",
+            "shortDesc": "Designed challenging tracks to test player control and style.",
+            "details": [
+                "Created tracks with varying road widths, curve types, and drift zones.",
+                "Used cones, barriers, and environment props to guide player path.",
+                "Balanced score thresholds and combo rewards to encourage mastery.",
+                "Added environment variety: urban, desert, night, and mountain tracks."
+            ]
+        },
+        {
+            "name": "Monetization & Progression",
+            "image": "Images/Projects/CarDriftRacing/Monetization.jpg",
+            "shortDesc": "Balanced free-to-play economy with rewarding progression.",
+            "details": [
+                "Integrated rewarded ads for double coins, retries, and unlock skips.",
+                "Added IAPs for coin packs and premium car unlocks.",
+                "Designed coin-based economy for upgrades and progression pacing.",
+                "Incorporated daily login bonuses, challenges, and drift-based goals."
+            ]
+        },
+        {
+            "name": "Performance & UI",
+            "image": "Images/Projects/CarDriftRacing/Performance.jpg",
+            "shortDesc": "Delivered a smooth, accessible, and visually polished experience.",
+            "details": [
+                "Optimized draw calls, lightmaps, and audio memory to run efficiently on mid-range devices.",
+                "Designed clean UI for drift scores, speedometer, minimap, and pause panel.",
+                "Maintained consistent 60 FPS across Android targets with scalable quality settings.",
+                "Published to Google Play with all required assets, metadata, and APK targeting."
+            ]
+        }
+    ]
+}

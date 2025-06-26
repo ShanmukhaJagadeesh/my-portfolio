@@ -1,0 +1,85 @@
+{
+    "title": "War Ground",
+    "icon": "Images/Projects/WarGround/ProjectIcon.jpg",
+    "description": "Offline third-person shooting game with dynamic combat.",
+    "shortDesc": "Fast-paced TPS shooter with weapon inventory, missions, smart AI, and offline gameplay. Unlock guns, complete objectives, and fight enemy forces across challenging battlegrounds with responsive mobile controls and stunning visuals.",
+    "playLink": "https://play.google.com/store/apps/details?id=com.example.alphareturns",
+    "youtube": "https://www.youtube.com/embed/lT-4suX00Vs",
+    "screenshots": 
+    [
+        "Images/Projects/WarGround/Screenshot_1.jpg",
+        "Images/Projects/WarGround/Screenshot_2.jpg",
+        "Images/Projects/WarGround/Screenshot_3.jpg", 
+        "Images/Projects/WarGround/Screenshot_4.jpg",
+        "Images/Projects/WarGround/Screenshot_5.jpg",
+        "Images/Projects/WarGround/Screenshot_6.jpg",
+        "Images/Projects/WarGround/Screenshot_7.jpg",
+        "Images/Projects/WarGround/Screenshot_8.jpg"
+    ],
+    "roles": [
+        "Sole developer responsible for game design, systems architecture, and production pipeline.",
+        "Engineered third-person shooter systems including aiming, combat, AI, and cover logic.",
+        "Built weapon inventory with unlock progression, ammo tracking, and switching system.",
+        "Implemented IAPs and rewarded ads for unlocking weapons, health boosts, and coins.",
+        "Designed adaptive UI for mobile devices, including HUD, inventory wheel, and mission panel.",
+        "Handled optimization for smooth performance on low to mid-range Android devices.",
+        "Managed Play Store publishing, versioning, analytics, and monetization integration."
+    ],
+    "contributions": [
+        {
+            "name": "Combat & Core Systems",
+            "image": "Images/Projects/WarGround/Combat.jpg",
+            "shortDesc": "Built immersive TPS gunplay with smart AI and tactical controls.",
+            "details": [
+                "Implemented responsive third-person shooting with zoom and dynamic reticles.",
+                "Designed AI behaviors like patrol, cover-seek, flank, and retreat.",
+                "Integrated crouch, sprint, reload animations and third-person camera behaviors.",
+                "Developed accurate damage detection using raycasts and colliders."
+            ]
+        },
+        {
+            "name": "Inventory & Progression",
+            "image": "Images/Projects/WarGround/Inventory.jpg",
+            "shortDesc": "Developed scalable inventory with weapon unlocks and upgrades.",
+            "details": [
+                "Created a modular inventory system using ScriptableObjects and custom editor tools.",
+                "Enabled dynamic weapon switching, ammo tracking, and reload logic.",
+                "Designed progression system with unlockable weapons and level-based access.",
+                "Stored player inventory state using persistent data and secure saves."
+            ]
+        },
+        {
+            "name": "Monetization (IAP & Ads)",
+            "image": "Images/Projects/WarGround/Monetization.jpg",
+            "shortDesc": "Integrated rewarded ads and IAPs for premium gameplay elements.",
+            "details": [
+                "Integrated Google Play Billing Library for in-app purchases (coin packs, premium guns).",
+                "Added rewarded video ads for free boosts, ammo, and continues.",
+                "Balanced monetization to avoid paywalls and maintain fair progression.",
+                "Tracked transactions and rewarded ad interactions using event analytics."
+            ]
+        },
+        {
+            "name": "User Interface & HUD",
+            "image": "Images/Projects/WarGround/UI.jpg",
+            "shortDesc": "Designed clean UI for immersive gameplay and control clarity.",
+            "details": [
+                "Built responsive HUD elements including health, ammo, radar, objectives, and coins.",
+                "Implemented contextual prompts, weapon overlays, and score summaries.",
+                "Optimized for touch UI with clear button placement and thumbstick zones.",
+                "Supported pause menu, mission briefing panels, and settings with localization support."
+            ]
+        },
+        {
+            "name": "Optimization & Deployment",
+            "image": "Images/Projects/WarGround/Deployment.jpg",
+            "shortDesc": "Ensured smooth performance and publishing readiness.",
+            "details": [
+                "Optimized scenes with light baking, LODs, object pooling, and batching.",
+                "Maintained stable performance (50–60 FPS) on budget devices.",
+                "Reduced APK size using asset stripping and texture compression.",
+                "Published on Google Play with ASO metadata, store graphics, and update management."
+            ]
+        }
+    ]
+}

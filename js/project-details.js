@@ -1,21 +1,15 @@
 const urlParams = new URLSearchParams(window.location.search);
 const projectSlug = urlParams.get("project");
-
 let screenshots = [];
 let lightboxIndex = 0;
 
-fetch('../data/projects.json')
-  .then(res => res.json())
-  .then(projects => {
-    const project = projects.find(p =>
-      p.title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '') === projectSlug
-    );
-
-    if (!project) {
-      document.getElementById("projectDetails").innerHTML = "<h2 style='text-align:center'>Project not found</h2>";
-      return;
-    }
-
+// Load one individual project JSON file based on slug
+fetch(`../data/projects-data/${projectSlug}.json`)
+  .then(res => {
+    if (!res.ok) throw new Error("Project file not found");
+    return res.json();
+  })
+  .then(project => {
     // --- Basic Info ---
     document.getElementById("projectTitle").innerText = project.title;
     document.getElementById("shortDesc").innerText = project.shortDesc || '';
@@ -61,19 +55,16 @@ fetch('../data/projects.json')
       rolesList.appendChild(li);
     });
 
-    // --- Feature Contributions (Enhanced Layout) ---
-    // --- Feature Contributions (Robust Layout with Fallbacks & Mixed Ratios) ---
+    // --- Feature Contributions ---
     const featuresGallery = document.getElementById("featuresGallery");
     (project.contributions || []).forEach(contrib => {
       const div = document.createElement("div");
       div.className = "feature-item";
 
-      // Optional image block only if image exists
       const imgBlock = contrib.image
         ? `<div class="feature-image"><img src="../${contrib.image}" alt="${contrib.name}"></div>`
         : "";
 
-      // Bullet points or paragraph
       const detailHTML = Array.isArray(contrib.details)
         ? `<ul>${contrib.details.map(d => `<li>${d}</li>`).join("")}</ul>`
         : `<p>${contrib.details}</p>`;
@@ -90,25 +81,40 @@ fetch('../data/projects.json')
       featuresGallery.appendChild(div);
     });
 
-
-
-
-
     // --- Related Projects ---
-    const otherProjects = document.getElementById("otherProjects");
-    projects
-      .filter(p => p.title !== project.title)
+    // You can load this from a smaller static list if needed
+    const projectList = [
+      { title: "Alpha Returns", icon: "Images/Projects/AlphaReturns/ProjectIcon.jpg" },
+      { title: "Poker VR", icon: "Images/Projects/PokerVR/ProjectIcon.jpg" },
+      { title: "Roulette Wheel VR", icon: "Images/Projects/RouletteWheelVR/ProjectIcon.jpg" },
+      { title: "Fortune Funnel VR", icon: "Images/Projects/FortuneFunnelVR/ProjectIcon.jpg" },
+      { title: "War Ground", icon: "Images/Projects/WarGround/ProjectIcon.jpg" },
+      { title: "Hop Ball", icon: "Images/Projects/HopBall/ProjectIcon.jpg" },
+      { title: "Word Coach", icon: "Images/Projects/WordCoach/ProjectIcon.jpg" },
+      { title: "Zombie Fever", icon: "Images/Projects/ZombieFever/ProjectIcon.jpg" },
+      { title: "Arrow Twist", icon: "Images/Projects/ArrowTwist/ProjectIcon.jpg" },
+      { title: "World of Rabin", icon: "Images/Projects/WorldOfRabin/ProjectIcon.jpg" }
+    ];
+
+    projectList
+      .filter(p => slugify(p.title) !== projectSlug)
       .forEach(p => {
         const div = document.createElement("div");
         div.className = "project-icon-item";
-        div.innerHTML = `
-          <img src="../${p.icon}" alt="${p.title} Icon" title="${p.title}" />
-        `;
+        div.innerHTML = `<img src="../${p.icon}" alt="${p.title} Icon" title="${p.title}" />`;
         div.addEventListener("click", () => {
-          window.location.href = `project-details.html?project=${p.title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`;
+          window.location.href = `project-details.html?project=${slugify(p.title)}`;
         });
-        otherProjects.appendChild(div);
+        document.getElementById("otherProjects").appendChild(div);
       });
+
+    function slugify(title) {
+      return title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
+    }
+
+  })
+  .catch(() => {
+    document.getElementById("projectDetails").innerHTML = "<h2 style='text-align:center'>Project not found</h2>";
   });
 
 // --- Lightbox Logic ---
@@ -124,20 +130,15 @@ function openLightbox(index) {
   lightboxImg.src = src.startsWith("http") ? src : `../${src}`;
   lightbox.style.display = "flex";
 }
-
 function changeLightbox(delta) {
   lightboxIndex = (lightboxIndex + delta + screenshots.length) % screenshots.length;
   const src = screenshots[lightboxIndex];
   lightboxImg.src = src.startsWith("http") ? src : `../${src}`;
 }
 
-lightboxClose.addEventListener("click", () => {
-  lightbox.style.display = "none";
-});
+lightboxClose.addEventListener("click", () => lightbox.style.display = "none");
 lightboxPrev.addEventListener("click", () => changeLightbox(-1));
 lightboxNext.addEventListener("click", () => changeLightbox(1));
 lightbox.addEventListener("click", (e) => {
-  if (e.target === lightbox) {
-    lightbox.style.display = "none";
-  }
+  if (e.target === lightbox) lightbox.style.display = "none";
 });

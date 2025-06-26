@@ -1,60 +1,57 @@
+// Optionally export this if another script (like project-details.js) wants access
+export let loadedProjects = [];
+
 export async function initProjects() {
-    const res = await fetch('data/projects.json');
-    const projects = await res.json();
+    const projectFilenames = [
+        "alpha-returns.json",
+        "arrow-twist.json",
+        "car-drift-racing.json",
+        "fortune-funnel-vr.json",
+        "hop-ball.json",
+        "nut-color-sort.json",
+        "offroad-driving.json",
+        "poker-vr.json",
+        "roulette-wheel-vr.json",
+        "war-ground.json",
+        "word-coach.json",
+        "world-of-rabin.json",
+        "zombie-fever.json"
+    ];
+
     const container = document.getElementById("projectList");
 
-    projects.forEach((proj, i) => {
+    // Load all projects
+    loadedProjects = await Promise.all(
+        projectFilenames.map(name =>
+            fetch(`data/projects-data/${name}`).then(res => res.json())
+        )
+    );
+
+    // Render each project card
+    loadedProjects.forEach((proj) => {
+        const slug = slugify(proj.title);
+
         const div = document.createElement("div");
         div.className = "project-item";
         div.innerHTML = `
             <div class="project-thumb">
-                <img src="${proj.icon}" alt="${proj.title} Icon" />
+                <img src="${proj.icon || 'Images/placeholder.png'}" alt="${proj.title} Icon" />
             </div>
             <h3 class="project-title">${proj.title}</h3>
             <p class="project-description">${proj.description}</p>
-            <a class="view-btn" href="html/project-details.html?project=${proj.title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}">View</a>
+            <a class="view-btn" href="html/project-details.html?project=${slug}">View</a>
         `;
 
         container.appendChild(div);
     });
+}
 
-    function showModal(index) {
-        const proj = projects[index];
-        document.getElementById("modalTitle").innerText = proj.title;
-        document.getElementById("modalDesc").innerText = proj.description;
-        // document.getElementById("playLink").href = proj.playLink;
-
-        const screenshotsDiv = document.querySelector(".modal-screenshots");
-        screenshotsDiv.innerHTML = '';
-        (proj.screenshots || []).forEach(src => {
-            const img = document.createElement("img");
-            img.src = src;
-            screenshotsDiv.appendChild(img);
-        });
-
-        document.getElementById("modal").style.display = "block";
-    }
-
-    container.addEventListener('click', function(event) {
-        if (event.target.classList.contains('view-btn')) {
-            const index = event.target.dataset.index;
-            showModal(index);
-        }
-    });
-
-    document.querySelector('.close').addEventListener('click', function() {
-        document.getElementById('modal').style.display = 'none';
-    });
-
-    window.onclick = function(event) {
-        const modal = document.getElementById('modal');
-        if (event.target === modal) {
-            modal.style.display = 'none';
-        }
-    };
-    window.addEventListener('keydown', function(event) {
-        if (event.key === "Escape") {
-            document.getElementById('modal').style.display = 'none';
-        }
-    });
+// Utility: Convert project title to slug-safe string
+function slugify(title) {
+    return title.toLowerCase()
+        .replace(/\s+/g, '-')         // Replace spaces with hyphens
+        .replace(/[^\w\-]+/g, '')     // Remove non-word chars
+        .replace(/\-\-+/g, '-')       // Replace multiple hyphens
+        .replace(/^-+/, '')           // Trim hyphens from start
+        .replace(/-+$/, '');          // Trim hyphens from end
 }

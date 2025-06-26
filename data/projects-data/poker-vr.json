@@ -1,0 +1,67 @@
+{
+    "title": "Poker VR",
+    "icon": "Images/Projects/PokerVR/ProjectIcon.jpg",
+    "description": "Multiplayer VR poker game with realistic physics and hand tracking.",
+    "shortDesc": "Step into a virtual casino and experience real-time multiplayer poker with fully immersive hand-tracked gestures, avatar interactions, and lifelike physics. Built for Oculus Quest, Poker VR delivers the feel of live poker from the comfort of your home.",
+    "playLink": "",
+    "youtube": "",
+    "screenshots": 
+    [
+
+    ],
+    "roles": [
+        "Contributed to core gameplay development as part of the immersive VR team at Ivy Comptech.",
+        "Implemented realistic card dealing, chip stacking, and gesture recognition using Oculus hand tracking.",
+        "Built smooth multiplayer table synchronization with avatar gestures, player seating, and round logic.",
+        "Optimized rendering, lighting, and interaction feedback for low-latency VR play on Oculus Quest.",
+        "Collaborated closely with designers and animators to ensure accurate visual and haptic responses.",
+        "Developed robust session state handling to support reconnects, network drops, and idle players.",
+        "Tested VR locomotion, camera transitions, and interaction fidelity across seated and room-scale modes."
+    ],
+    "contributions": [
+        {
+            "name": "Core Poker Mechanics",
+            "image": "Images/Projects/PokerVR/Gameplay.jpg",
+            "shortDesc": "Built the real-time poker logic and immersive table interaction systems.",
+            "details": [
+                "Implemented Texas Hold’em rule logic including betting rounds, blinds, raises, and folds.",
+                "Synced card reveals, chip animations, and winner resolution across all players in a session.",
+                "Created round management with dealer control, countdown timers, and hand resets.",
+                "Handled spectator view and AI fallback in case of player disconnection."
+            ]
+        },
+        {
+            "name": "Hand Tracking & Interaction",
+            "image": "Images/Projects/PokerVR/HandTracking.jpg",
+            "shortDesc": "Integrated Oculus hand tracking for natural gesture-driven gameplay.",
+            "details": [
+                "Mapped gestures to real-world interactions: chip throw, card peek, raise motion.",
+                "Created collider-based interaction zones for card pickup, betting gestures, and table taps.",
+                "Provided haptic feedback and audio cues based on proximity and object weight.",
+                "Maintained responsiveness under variable hand-tracking conditions using fallback logic."
+            ]
+        },
+        {
+            "name": "Multiplayer Synchronization",
+            "image": "Images/Projects/PokerVR/Multiplayer.jpg",
+            "shortDesc": "Enabled stable multiplayer tables with live voice, avatars, and actions.",
+            "details": [
+                "Used Photon networking to sync seat positions, avatar gestures, bets, and game state.",
+                "Built player join/leave flow with rejoin handling and host migration.",
+                "Integrated voice chat and positional audio per player with mute controls.",
+                "Ensured smooth replication of all major actions with lag compensation and animation syncing."
+            ]
+        },
+        {
+            "name": "Visual Polish & VR UX",
+            "image": "Images/Projects/PokerVR/Visuals.jpg",
+            "shortDesc": "Enhanced realism through interaction feedback and environmental immersion.",
+            "details": [
+                "Designed virtual casino environments with ambient lighting and reflections.",
+                "Implemented avatar lip sync, gaze direction, and proximity reactions.",
+                "Optimized shader performance and poly count for Oculus Quest hardware.",
+                "Added cinematic camera options for replays, highlights, and tutorials."
+            ]
+        }
+    ]
+}

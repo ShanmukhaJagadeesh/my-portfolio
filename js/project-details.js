@@ -91,6 +91,9 @@ fetch(`../data/projects-data/${projectSlug}.json`)
     // --- Related Projects ---
     const projectList = [
       { title: "Alpha Returns", icon: "Images/Projects/AlphaReturns/ProjectIcon.jpg" },
+      { title: "Car Drift Racing", icon: "Images/Projects/CarDriftRacing/ProjectIcon.jpg" },
+      { title: "Nut Color Sort", icon: "Images/Projects/NutColorSort/ProjectIcon.jpg" },
+      { title: "Offroad Driving", icon: "Images/Projects/OffroadDriving/ProjectIcon.jpg" },
       { title: "Poker VR", icon: "Images/Projects/PokerVR/ProjectIcon.jpg" },
       { title: "Roulette Wheel VR", icon: "Images/Projects/RouletteWheelVR/ProjectIcon.jpg" },
       { title: "Fortune Funnel VR", icon: "Images/Projects/FortuneFunnelVR/ProjectIcon.jpg" },

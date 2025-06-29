@@ -8,11 +8,24 @@
   <link rel="stylesheet" href="../css/projects.css" />
   <link rel="stylesheet" href="../css/responsive.css" />
   <link rel="stylesheet" href="../css/project-details.css" />
+  <link rel="stylesheet" href="../css/navbar.css" />
+  <link rel="stylesheet" href="../css/contact.css" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="brand"><a href="../index.html" style="text-decoration:none; color:#a58cff;">home</a></div>
-  </header>
+  <!-- <header class="navbar">
+    <div class="navbar-content">
+      <div class="navbar-title"><a href="../index.html" style="text-decoration:none; color:#a58cff;">home</a></div>
+    </div>
+  </header> -->
+  
+      <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-content">
+                <div class="navbar-title"><a href="../index.html" style="text-decoration:none; color:#a58cff;">home</a></div>
+            </div>
+        </nav>
+    </header>
 
   <section id="projectDetails">
     <h1 id="projectTitle" class="big-title"></h1>
@@ -57,6 +70,17 @@
     <span class="lightbox-close" id="lightboxClose">×</span>
   </div>
 
+    <!-- Contact Section -->
+    <div id="contact-container"></div>
+
   <script type="module" src="../js/project-details.js"></script>
+    <script>
+      // Dynamically load contact section
+      fetch('../html/contact.html')
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById('contact-container').innerHTML = html;
+        });
+    </script>
 </body>
 </html>

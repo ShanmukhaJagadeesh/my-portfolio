@@ -18,12 +18,12 @@ header {
     margin-right: auto;
     letter-spacing: 0.5px;
 }
-.navbar {
+/* .navbar {
     display: flex;
     align-items: center;
     width: 100%;
     max-width: 1250px;
-}
+} */
 .nav-links {
     list-style: none;
     display: flex;
@@ -56,10 +56,10 @@ header {
         flex-direction: column;
         padding: 7px 3vw;
     }
-    .navbar {
+    /* .navbar {
         flex-direction: column;
         align-items: flex-start;
-    }
+    } */
     .brand {
         font-size: 1rem;
         margin-bottom: 6px;

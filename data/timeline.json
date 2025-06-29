@@ -1,56 +1,40 @@
 [
-    {
-        "company": "Caesium Lab",
-        "period": "Oct 2023 - Present",
-        "title": "Lead Unity Developer",
-        "desc": "Leading a 15+ member team to deliver 'Alpha Returns', a Web3 mobile battle-royale game. Achieved 10x performance boost through system optimization, implemented AI, weapons, inventory, and NFT-based rewards.",
-        "projects": [
-            "Alpha Returns - Web3 multiplayer PvP shooter (tokenized assets, crypto rewards, blockchain integration)"
-        ]
-    },
-    {
-        "company": "Ivy Comptech",
-        "period": "Apr 2022 - Aug 2023",
-        "title": "Senior Software Engineer",
-        "desc": "Developed and optimized immersive VR titles for Oculus Quest. Focused on frame-rate stability, low-latency input, and advanced VR mechanics for the metaverse.",
-        "projects": [
-            "Poker VR - Multiplayer VR poker with realistic hand tracking",
-            "Roulette Wheel VR - Multiplayer roulette with gesture controls",
-            "Fortune Funnel VR - Physics-based VR puzzle with haptics"
-        ]
-    },
-    {
-        "company": "Supercode Games",
-        "period": "Jan 2019 - Apr 2022",
-        "title": "Senior Unity Developer",
-        "desc": "Led development of high-performing mobile games for the Play Store. Engineered core systems, optimized performance, and integrated visuals, audio, and QA across multiple genres.",
-        "projects": [
-            "War Ground - 3D PvP shooter",
-            "Car Drift Racing - Drift physics & vehicle control",
-            "Offroad Driving - Terrain-based racing",
-            "Robot Fighting - PvP AI combat",
-            "Hop Ball - Arcade rhythm game",
-            "Arrow Twist - Physics-based arrow puzzle",
-            "Word Coach - Procedural word puzzle"
-        ]
-    },
-    {
-        "company": "ARDIS Enviro Solutions",
-        "period": "Nov 2015 - Feb 2017",
-        "title": "Design Engineer",
-        "desc": "Led development of high-performing mobile games for the Play Store. Engineered core systems, optimized performance, and integrated visuals, audio, and QA across multiple genres.",
-        "projects": [
-            "Designed 3D models of mechanical components and assemblies for industrial machinery.",
-            "Conducted digital simulations for structural load testing, thermal analysis, and material stress validation to ensure robust product performance.",
-            "Utilized tools such as AutoCAD, SolidWorks, and Blender for modeling, visualization, and prototype iteration.",
-            "Collaborated with cross-functional engineering teams to refine product designs for manufacturability and performance."
-        ]
-    },
-    {
-        "company": "Sasi Institute of Technology and Engineering (SITE)",
-        "period": "2011 - 2015",
-        "title": "B.Tech in Mechanical Engineering",
-        "desc": "Completed core coursework in engineering design, mechanics, and CAD modeling tools.",
-        "projects": []
-    }
+  {
+    "company": "Caesium Lab",
+    "period": "Oct 2023 - Present",
+    "title": "Lead Unity Developer",
+    "desc": "Led the development of Alpha Returns - a Web3 multiplayer shooter with PvP mechanics and NFT-driven rewards. Directed a 15+ member team and achieved 10x performance improvement through modular architecture, GPU instancing, and burst-enabled job systems.",
+    "projects": [
+    ]
+  },
+  {
+    "company": "Ivy Comptech",
+    "period": "Apr 2022 - Aug 2023",
+    "title": "Senior Software Engineer",
+    "desc": "Built immersive VR games for Oculus Quest including Poker VR and Roulette Wheel VR. Focused on latency-free interaction, multiplayer logic, gesture-based control, and real-world physics in Unity with hand-tracking support.",
+    "projects": [
+    ]
+  },
+  {
+    "company": "Supercode Games",
+    "period": "Jan 2019 - Apr 2022",
+    "title": "Senior Unity Developer",
+    "desc": "Delivered 7+ Android games with over 10M combined downloads. Designed gameplay, UI systems, and performance enhancements across physics, puzzle, FPS, and arcade genres.",
+    "projects": [
+    ]
+  },
+  {
+    "company": "ARDIS Enviro Solutions",
+    "period": "Nov 2015 - Feb 2017",
+    "title": "Design Engineer",
+    "desc": "Handled AutoCAD mechanical design and industrial waste management systems. Created CAD models and fabrication drawings for environmental project proposals.",
+    "projects": []
+  },
+  {
+    "company": "Sasi Institute of Technology and Engineering (SITE)",
+    "period": "2011 - 2015",
+    "title": "B.Tech in Mechanical Engineering",
+    "desc": "Completed coursework in Thermodynamics, Mechanics of Solids, CAD/CAM, and participated in technical workshops related to fluid mechanics and automotive design.",
+    "projects": []
+  }
 ]

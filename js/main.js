@@ -16,5 +16,15 @@ document.addEventListener('DOMContentLoaded', () => {
     initTimeline();
     initProjects();
     loadSkillsSection();
+
+    // Load contact section dynamically
+    fetch('html/contact.html')
+    .then(response => response.text())
+    .then(html => {
+        document.getElementById('contact-container').innerHTML = html;
+    });
 });
+
+
+
 

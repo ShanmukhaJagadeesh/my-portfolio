@@ -24,11 +24,16 @@
     <!-- Navigation -->
     <header>
         <nav class="navbar">
-        <div class="navbar-title">Shanmukh.dev</div>
-            <div class="navbar-links">
-                <a href="#skills">Skills</a>
+            <div class="navbar-content">
+                <div class="navbar-title">Shanmuka Jagadeesh</div>
+                <div class="navbar-links">
+                <!-- your links here -->
+                <a href="#home">About</a>
+                <a href="#skills-container">Skills</a>
                 <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -48,7 +53,6 @@
     </div>
     </section>
 
-
     <!-- Stats Bar (Rendered by JS) -->
     <section class="stats-bar"></section>
 
@@ -60,8 +64,6 @@
         <h2 class="timeline-title">Professional Timeline</h2>
         <div class="timeline-entries"></div>
     </section>
-
-
 
     <!-- Projects Section -->
     <section class="section" id="projects">
@@ -80,37 +82,16 @@
     </div>
 
     <!-- Contact Section -->
-    <section class="contact-section" id="contact">
-    <h2>Contact</h2>
-    <div class="contact-info">
-        <div class="contact-row">
-        <span class="contact-icon">
-            <img src="Images/icons/mail.svg" alt="Email" />
-        </span>
-        <a href="mailto:shanmukhajagadeesh@gmail.com">shanmukhajagadeesh@gmail.com</a>
-        </div>
-        <div class="contact-row">
-        <span class="contact-icon">
-            <img src="Images/icons/phone.svg" alt="Phone" />
-        </span>
-        <a href="tel:+918008900943">+91 80089 00943</a>
-        </div>
-        <div class="contact-row">
-        <span class="contact-icon">
-            <img src="Images/icons/linkedin.svg" alt="LinkedIn" />
-        </span>
-        <a href="https://www.linkedin.com/in/shanmukha-jagadeesh-punnam/" target="_blank">LinkedIn Profile</a>
-        </div>
-        <div class="contact-row">
-        <span class="contact-icon">
-            <img src="Images/icons/resume.svg" alt="Resume" />
-        </span>
-        <a href="ShanmukaJagadeesh_Resume.pdf" download>Download Resume</a>
-        </div>
-    </div>
+    <section class="section" id="contact">
+        <h2>Contact</h2>
+        <div id="contact-container"></div>
     </section>
-
-
+</style>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 
     <!-- JS modules for rendering and nav toggle -->
     <script type="module" src="js/main.js"></script>

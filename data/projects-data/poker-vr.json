@@ -21,7 +21,7 @@
     "contributions": [
         {
             "name": "Core Poker Mechanics",
-            "image": "Images/Projects/PokerVR/Gameplay.jpg",
+            "image": "",
             "shortDesc": "Built the real-time poker logic and immersive table interaction systems.",
             "details": [
                 "Implemented Texas Hold’em rule logic including betting rounds, blinds, raises, and folds.",
@@ -32,7 +32,7 @@
         },
         {
             "name": "Hand Tracking & Interaction",
-            "image": "Images/Projects/PokerVR/HandTracking.jpg",
+            "image": "",
             "shortDesc": "Integrated Oculus hand tracking for natural gesture-driven gameplay.",
             "details": [
                 "Mapped gestures to real-world interactions: chip throw, card peek, raise motion.",
@@ -43,7 +43,7 @@
         },
         {
             "name": "Multiplayer Synchronization",
-            "image": "Images/Projects/PokerVR/Multiplayer.jpg",
+            "image": "",
             "shortDesc": "Enabled stable multiplayer tables with live voice, avatars, and actions.",
             "details": [
                 "Used Photon networking to sync seat positions, avatar gestures, bets, and game state.",
@@ -54,7 +54,7 @@
         },
         {
             "name": "Visual Polish & VR UX",
-            "image": "Images/Projects/PokerVR/Visuals.jpg",
+            "image": "",
             "shortDesc": "Enhanced realism through interaction feedback and environmental immersion.",
             "details": [
                 "Designed virtual casino environments with ambient lighting and reflections.",

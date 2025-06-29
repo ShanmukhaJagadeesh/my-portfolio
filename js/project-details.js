@@ -3,49 +3,56 @@ const projectSlug = urlParams.get("project");
 let screenshots = [];
 let lightboxIndex = 0;
 
-// Load one individual project JSON file based on slug
+// Load individual project JSON file based on slug
 fetch(`../data/projects-data/${projectSlug}.json`)
   .then(res => {
     if (!res.ok) throw new Error("Project file not found");
     return res.json();
   })
   .then(project => {
-    // --- Basic Info ---
+    // --- Title & Description ---
     document.getElementById("projectTitle").innerText = project.title;
     document.getElementById("shortDesc").innerText = project.shortDesc || '';
-    document.getElementById("playButton").href = project.playLink;
 
-    // --- YouTube ---
-    if (project.youtube) {
-      document.getElementById("youtubeVideo").src = project.youtube;
+    // --- Play Store Button ---
+    const playBtn = document.getElementById("playButton");
+    if (project.playLink) {
+      playBtn.href = project.playLink;
+    } else {
+      playBtn.style.display = "none";
     }
 
-    // --- Feature List ---
-    const featureList = document.getElementById("featureList");
-    (project.features || []).forEach(f => {
-      const li = document.createElement("li");
-      li.textContent = f;
-      featureList.appendChild(li);
-    });
+    // --- YouTube Video ---
+    const youtubeContainer = document.querySelector(".video-container");
+    if (project.youtube) {
+      document.getElementById("youtubeVideo").src = project.youtube;
+    } else {
+      youtubeContainer.style.display = "none";
+    }
 
     // --- Screenshot Gallery ---
+    const galleryWrapper = document.querySelector(".screenshot-gallery-wrapper");
     const galleryDiv = document.getElementById("screenshotGallery");
     screenshots = project.screenshots || [];
 
-    screenshots.forEach((src, index) => {
-      const img = document.createElement("img");
-      img.src = src.startsWith("http") ? src : `../${src}`;
-      img.alt = `${project.title} Screenshot`;
-      img.addEventListener("click", () => openLightbox(index));
-      galleryDiv.appendChild(img);
-    });
+    if (screenshots.length === 0) {
+      galleryWrapper.style.display = "none";
+    } else {
+      screenshots.forEach((src, index) => {
+        const img = document.createElement("img");
+        img.src = src.startsWith("http") ? src : `../${src}`;
+        img.alt = `${project.title} Screenshot`;
+        img.addEventListener("click", () => openLightbox(index));
+        galleryDiv.appendChild(img);
+      });
 
-    document.getElementById("scrollLeft").onclick = () => {
-      galleryDiv.scrollBy({ left: -300, behavior: 'smooth' });
-    };
-    document.getElementById("scrollRight").onclick = () => {
-      galleryDiv.scrollBy({ left: 300, behavior: 'smooth' });
-    };
+      document.getElementById("scrollLeft").onclick = () => {
+        galleryDiv.scrollBy({ left: -300, behavior: 'smooth' });
+      };
+      document.getElementById("scrollRight").onclick = () => {
+        galleryDiv.scrollBy({ left: 300, behavior: 'smooth' });
+      };
+    }
 
     // --- Roles & Responsibilities ---
     const rolesList = document.getElementById("rolesList");
@@ -82,7 +89,6 @@ fetch(`../data/projects-data/${projectSlug}.json`)
     });
 
     // --- Related Projects ---
-    // You can load this from a smaller static list if needed
     const projectList = [
       { title: "Alpha Returns", icon: "Images/Projects/AlphaReturns/ProjectIcon.jpg" },
       { title: "Poker VR", icon: "Images/Projects/PokerVR/ProjectIcon.jpg" },
@@ -111,10 +117,10 @@ fetch(`../data/projects-data/${projectSlug}.json`)
     function slugify(title) {
       return title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
     }
-
   })
   .catch(() => {
-    document.getElementById("projectDetails").innerHTML = "<h2 style='text-align:center'>Project not found</h2>";
+    document.getElementById("projectDetails").innerHTML =
+      "<h2 style='text-align:center'>Project not found</h2>";
   });
 
 // --- Lightbox Logic ---
@@ -130,13 +136,14 @@ function openLightbox(index) {
   lightboxImg.src = src.startsWith("http") ? src : `../${src}`;
   lightbox.style.display = "flex";
 }
+
 function changeLightbox(delta) {
   lightboxIndex = (lightboxIndex + delta + screenshots.length) % screenshots.length;
   const src = screenshots[lightboxIndex];
   lightboxImg.src = src.startsWith("http") ? src : `../${src}`;
 }
 
-lightboxClose.addEventListener("click", () => lightbox.style.display = "none");
+lightboxClose.addEventListener("click", () => (lightbox.style.display = "none"));
 lightboxPrev.addEventListener("click", () => changeLightbox(-1));
 lightboxNext.addEventListener("click", () => changeLightbox(1));
 lightbox.addEventListener("click", (e) => {

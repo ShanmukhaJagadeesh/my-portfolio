@@ -25,7 +25,7 @@
     "contributions": [
         {
             "name": "Core Gameplay Logic",
-            "image": "Images/Projects/NutSort/Logic.jpg",
+            "image": "",
             "shortDesc": "Designed addictive sorting mechanics with intuitive controls.",
             "details": [
                 "Developed tap-and-transfer logic for sorting nuts across branches.",
@@ -36,7 +36,7 @@
         },
         {
             "name": "Level System & Progression",
-            "image": "Images/Projects/NutSort/Levels.jpg",
+            "image": "",
             "shortDesc": "Built a flexible level system with hundreds of handcrafted puzzles.",
             "details": [
                 "Designed dynamic difficulty scaling with increasing branch and nut complexity.",
@@ -47,7 +47,7 @@
         },
         {
             "name": "Monetization & Retention",
-            "image": "Images/Projects/NutSort/Monetization.jpg",
+            "image": "",
             "shortDesc": "Integrated monetization with minimal disruption to gameplay.",
             "details": [
                 "Implemented rewarded ads for hints, undo, and continue after failure.",
@@ -58,7 +58,7 @@
         },
         {
             "name": "Visual Polish & UX",
-            "image": "Images/Projects/NutSort/UI.jpg",
+            "image": "",
             "shortDesc": "Delivered a smooth and relaxing puzzle experience with polished UI.",
             "details": [
                 "Created a minimalist interface with clear branch visuals and color-coded nuts.",
@@ -69,7 +69,7 @@
         },
         {
             "name": "Performance & Publishing",
-            "image": "Images/Projects/NutSort/Performance.jpg",
+            "image": "",
             "shortDesc": "Optimized the game for smooth performance and store deployment.",
             "details": [
                 "Minimized memory usage using pooling and batching techniques.",

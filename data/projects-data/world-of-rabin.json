@@ -25,7 +25,7 @@
     "contributions": [
         {
             "name": "Core Gameplay & Mechanics",
-            "image": "Images/Projects/WorldOfRabin/Gameplay.jpg",
+            "image": "",
             "shortDesc": "Built a platforming system that merges timing with logical puzzle-solving.",
             "details": [
                 "Implemented smooth jump and step mechanics with tight input controls.",
@@ -36,7 +36,7 @@
         },
         {
             "name": "Level Design & Progression",
-            "image": "Images/Projects/WorldOfRabin/LevelDesign.jpg",
+            "image": "",
             "shortDesc": "Crafted modular levels that build logical intuition and storytelling without words.",
             "details": [
                 "Developed chapter-based levels with unique platforming layouts and progression systems.",
@@ -47,7 +47,7 @@
         },
         {
             "name": "Narrative & Theme",
-            "image": "Images/Projects/WorldOfRabin/Narrative.jpg",
+            "image": "",
             "shortDesc": "Developed a symbolic narrative of escape and companionship in a mysterious world.",
             "details": [
                 "Built a story around two friends trapped in an endless pit called Rabin, inspired by mythological themes.",
@@ -58,7 +58,7 @@
         },
         {
             "name": "UI/UX & Visual Direction",
-            "image": "Images/Projects/WorldOfRabin/UIUX.jpg",
+            "image": "",
             "shortDesc": "Designed minimal and immersive interface to support a distraction-free experience.",
             "details": [
                 "Created clean, HUD-light interfaces with contextual cues.",
@@ -69,7 +69,7 @@
         },
         {
             "name": "Optimization & Publishing",
-            "image": "Images/Projects/WorldOfRabin/Optimization.jpg",
+            "image": "",
             "shortDesc": "Optimized the game for Android devices and managed the Google Play deployment.",
             "details": [
                 "Compressed assets and minimized draw calls to support smooth performance on low-end devices.",

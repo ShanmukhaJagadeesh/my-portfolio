@@ -20,7 +20,7 @@
     "contributions": [
         {
             "name": "Gameplay & Bet Handling",
-            "image": "Images/Projects/RouletteWheelVR/Gameplay.jpg",
+            "image": "",
             "shortDesc": "Developed core roulette mechanics with bet validation and round flow.",
             "details": [
                 "Implemented logic for inside and outside bets, number targeting, and win/loss resolution.",
@@ -31,7 +31,7 @@
         },
         {
             "name": "VR Interaction & Gesture Control",
-            "image": "Images/Projects/RouletteWheelVR/Interaction.jpg",
+            "image": "",
             "shortDesc": "Enabled natural interaction through VR hand tracking and controller support.",
             "details": [
                 "Allowed players to grab, drag, and place chips using hand gestures or VR controllers.",
@@ -42,7 +42,7 @@
         },
         {
             "name": "Multiplayer & Networking",
-            "image": "Images/Projects/RouletteWheelVR/Multiplayer.jpg",
+            "image": "",
             "shortDesc": "Created a real-time, multi-user roulette environment.",
             "details": [
                 "Integrated Photon to synchronize chip placements, spin results, and payouts.",
@@ -53,7 +53,7 @@
         },
         {
             "name": "Visual Polish & Casino UX",
-            "image": "Images/Projects/RouletteWheelVR/Visuals.jpg",
+            "image": "",
             "shortDesc": "Designed immersive VR casino scenes and polished interactions.",
             "details": [
                 "Modeled roulette tables, chips, and UI with high visual fidelity and clean layout.",

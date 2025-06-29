@@ -28,7 +28,7 @@
     "contributions": [
         {
             "name": "Gameplay & Shooting Mechanics",
-            "image": "Images/Projects/ArrowTwist/Gameplay.jpg",
+            "image": "",
             "shortDesc": "Created reflex-based arcade shooting mechanics with strategic timing.",
             "details": [
                 "Developed core tap-to-shoot input with collision checks for existing arrows and spikes.",
@@ -39,7 +39,7 @@
             },
         {
             "name": "Boss Levels & Progression",
-            "image": "Images/Projects/ArrowTwist/Bosses.jpg",
+            "image": "",
             "shortDesc": "Designed special levels and unlock systems tied to boss encounters.",
             "details": [
                 "Created boss stages every 5 levels with unique behaviors and designs.",
@@ -50,7 +50,7 @@
         },
         {
             "name": "Visual FX & Sound Design",
-            "image": "Images/Projects/ArrowTwist/Visuals.jpg",
+            "image": "",
             "shortDesc": "Enhanced satisfaction through impactful audio-visual feedback.",
             "details": [
                 "Added squash/stretch animations, glow effects, and arrow trails.",
@@ -61,7 +61,7 @@
         },
         {
             "name": "Monetization & Customization",
-            "image": "Images/Projects/ArrowTwist/Monetization.jpg",
+            "image": "",
             "shortDesc": "Incentivized play and personalization through smart monetization.",
             "details": [
                 "Integrated rewarded ads for continues, coins, and exclusive arrow skins.",
@@ -72,7 +72,7 @@
         },
         {
             "name": "Optimization & Deployment",
-            "image": "Images/Projects/ArrowTwist/Deployment.jpg",
+            "image": "",
             "shortDesc": "Delivered high performance across devices and published to Google Play.",
             "details": [
                 "Kept APK lightweight by compressing assets and using pooling systems.",

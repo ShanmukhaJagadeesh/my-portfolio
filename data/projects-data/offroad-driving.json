@@ -26,7 +26,7 @@
     "contributions": [
         {
             "name": "Driving Physics & Terrain Systems",
-            "image": "Images/Projects/OffroadDriving/Physics.jpg",
+            "image": "",
             "shortDesc": "Crafted terrain-aware driving mechanics and dynamic suspension behavior.",
             "details": [
                 "Simulated realistic suspension, wheel colliders, torque curves, and ground friction.",
@@ -37,7 +37,7 @@
         },
         {
             "name": "Vehicle System & Garage",
-            "image": "Images/Projects/OffroadDriving/Vehicles.jpg",
+            "image": "",
             "shortDesc": "Built a modular system for vehicle selection and upgrades.",
             "details": [
                 "Created multiple driveable vehicles with distinct handling profiles.",
@@ -48,7 +48,7 @@
         },
         {
             "name": "UI/UX & Control Schemes",
-            "image": "Images/Projects/OffroadDriving/UI.jpg",
+            "image": "",
             "shortDesc": "Developed intuitive driving interface and feedback systems.",
             "details": [
                 "Implemented HUD for speedometer, gear, tilt angle, and terrain warnings.",
@@ -59,7 +59,7 @@
         },
         {
             "name": "Monetization & Progression",
-            "image": "Images/Projects/OffroadDriving/Monetization.jpg",
+            "image": "",
             "shortDesc": "Balanced free-to-play design with rewarding progression.",
             "details": [
                 "Implemented rewarded ads for coins, fuel boosts, and retry options.",
@@ -70,7 +70,7 @@
         },
         {
             "name": "Optimization & Publishing",
-            "image": "Images/Projects/OffroadDriving/Optimization.jpg",
+            "image": "",
             "shortDesc": "Ensured high performance and deployment readiness.",
             "details": [
                 "Used terrain LODs, mesh baking, and lightmapping for smooth rendering.",

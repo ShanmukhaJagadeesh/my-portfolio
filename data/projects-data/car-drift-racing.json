@@ -27,7 +27,7 @@
     "contributions": [
         {
             "name": "Drift Physics & Controls",
-            "image": "Images/Projects/CarDriftRacing/Physics.jpg",
+            "image": "",
             "shortDesc": "Built custom drift physics for tight and responsive racing.",
             "details": [
                 "Simulated realistic drift dynamics using Unity Wheel Colliders and lateral slip.",
@@ -38,7 +38,7 @@
         },
         {
             "name": "Garage, Cars & Upgrades",
-            "image": "Images/Projects/CarDriftRacing/Garage.jpg",
+            "image": "",
             "shortDesc": "Created a progression system with customizable and unlockable vehicles.",
             "details": [
                 "Built a garage system to showcase, select, and upgrade cars.",
@@ -49,7 +49,7 @@
         },
         {
             "name": "Tracks & Level Design",
-            "image": "Images/Projects/CarDriftRacing/Tracks.jpg",
+            "image": "",
             "shortDesc": "Designed challenging tracks to test player control and style.",
             "details": [
                 "Created tracks with varying road widths, curve types, and drift zones.",
@@ -60,7 +60,7 @@
         },
         {
             "name": "Monetization & Progression",
-            "image": "Images/Projects/CarDriftRacing/Monetization.jpg",
+            "image": "",
             "shortDesc": "Balanced free-to-play economy with rewarding progression.",
             "details": [
                 "Integrated rewarded ads for double coins, retries, and unlock skips.",
@@ -71,7 +71,7 @@
         },
         {
             "name": "Performance & UI",
-            "image": "Images/Projects/CarDriftRacing/Performance.jpg",
+            "image": "",
             "shortDesc": "Delivered a smooth, accessible, and visually polished experience.",
             "details": [
                 "Optimized draw calls, lightmaps, and audio memory to run efficiently on mid-range devices.",

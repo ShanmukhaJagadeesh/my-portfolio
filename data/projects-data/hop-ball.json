@@ -28,7 +28,7 @@
     "contributions": [
         {
             "name": "Core Gameplay & Physics",
-            "image": "Images/Projects/HopBall/Gameplay.jpg",
+            "image": "",
             "shortDesc": "Engineered smooth hop mechanics and intuitive swipe-based control.",
             "details": [
                 "Implemented tap-and-drag input to control lateral ball movement.",
@@ -39,7 +39,7 @@
         },
         {
             "name": "Level Generation",
-            "image": "Images/Projects/HopBall/LevelGen.jpg",
+            "image": "",
             "shortDesc": "Created an endless pillar spawning system with increasing challenge.",
             "details": [
                 "Designed procedural generation with adjustable spacing and pillar types.",
@@ -50,7 +50,7 @@
         },
         {
             "name": "Skins, Rewards & Customization",
-            "image": "Images/Projects/HopBall/Skins.jpg",
+            "image": "",
             "shortDesc": "Added collectible cosmetic content and interactive unlock systems.",
             "details": [
                 "Created a variety of unlockable ball skins and themed pillar designs.",
@@ -61,7 +61,7 @@
         },
         {
             "name": "Monetization & Retention",
-            "image": "Images/Projects/HopBall/Monetization.jpg",
+            "image": "",
             "shortDesc": "Integrated ads and IAPs to enhance gameplay without intrusiveness.",
             "details": [
                 "Added rewarded video ads for continues, coins, and skin unlocks.",
@@ -72,7 +72,7 @@
         },
         {
             "name": "Visual FX & Mobile Optimization",
-            "image": "Images/Projects/HopBall/FX.jpg",
+            "image": "",
             "shortDesc": "Polished the game with vibrant visuals and smooth performance.",
             "details": [
                 "Implemented glow effects, particle bursts, and screen shakes on hops and combos.",

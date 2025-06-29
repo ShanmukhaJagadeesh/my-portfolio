@@ -28,7 +28,7 @@
     "contributions": [
         {
             "name": "Combat & Core Systems",
-            "image": "Images/Projects/WarGround/Combat.jpg",
+            "image": "",
             "shortDesc": "Built immersive TPS gunplay with smart AI and tactical controls.",
             "details": [
                 "Implemented responsive third-person shooting with zoom and dynamic reticles.",
@@ -39,7 +39,7 @@
         },
         {
             "name": "Inventory & Progression",
-            "image": "Images/Projects/WarGround/Inventory.jpg",
+            "image": "",
             "shortDesc": "Developed scalable inventory with weapon unlocks and upgrades.",
             "details": [
                 "Created a modular inventory system using ScriptableObjects and custom editor tools.",
@@ -50,7 +50,7 @@
         },
         {
             "name": "Monetization (IAP & Ads)",
-            "image": "Images/Projects/WarGround/Monetization.jpg",
+            "image": "",
             "shortDesc": "Integrated rewarded ads and IAPs for premium gameplay elements.",
             "details": [
                 "Integrated Google Play Billing Library for in-app purchases (coin packs, premium guns).",
@@ -61,7 +61,7 @@
         },
         {
             "name": "User Interface & HUD",
-            "image": "Images/Projects/WarGround/UI.jpg",
+            "image": "",
             "shortDesc": "Designed clean UI for immersive gameplay and control clarity.",
             "details": [
                 "Built responsive HUD elements including health, ammo, radar, objectives, and coins.",
@@ -72,7 +72,7 @@
         },
         {
             "name": "Optimization & Deployment",
-            "image": "Images/Projects/WarGround/Deployment.jpg",
+            "image": "",
             "shortDesc": "Ensured smooth performance and publishing readiness.",
             "details": [
                 "Optimized scenes with light baking, LODs, object pooling, and batching.",
